@@ -1,0 +1,456 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Disclaimer — gogoselfcontrol.org</title>
+<meta name="description" content="Help men who need their men to find their men. A directory of men's gatherings — circles, ministries, recovery rooms, mentorships, hiking collectives, therapeutic groups, civic and faith fraternals.">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=EB+Garamond:ital,wght@0,400;0,500;0,700;1,400;1,500&family=IBM+Plex+Mono:wght@400;500&display=swap" rel="stylesheet">
+<style>
+:root {
+  --bg: #F2EAD3;
+  --bg-card: #FBF6E8;
+  --bg-soft: #EBE2C5;
+  --fg: #2A2520;
+  --fg-mute: #6B6256;
+  --fg-deep: #423B30;
+  --accent: #3D5A40;
+  --accent-soft: #6E8A6F;
+  --rule: #C7B98F;
+  --rule-soft: #DDD2A8;
+  --warn-bg: #ECE0BF;
+  --warn-fg: #6B4F18;
+  --crisis-bg: #2A4D3A;
+  --crisis-fg: #F2EAD3;
+  --serif: 'EB Garamond', Garamond, 'Times New Roman', Georgia, serif;
+  --mono: 'IBM Plex Mono', Menlo, Consolas, monospace;
+  --measure: 36rem;
+  --measure-wide: 64rem;
+}
+* { box-sizing: border-box; }
+html { background: var(--bg); }
+body {
+  font-family: var(--serif);
+  font-size: 1.0625rem;
+  line-height: 1.55;
+  color: var(--fg);
+  background: var(--bg);
+  margin: 0;
+  -webkit-font-smoothing: antialiased;
+  text-rendering: optimizeLegibility;
+}
+a { color: var(--accent); text-decoration-thickness: 1px; text-underline-offset: 3px; }
+a:hover { color: var(--fg); }
+hr { border: none; border-top: 1px solid var(--rule-soft); margin: 2rem 0; }
+
+.site-wrap { max-width: var(--measure-wide); margin: 0 auto; padding: 2rem 1.5rem 3rem; }
+.measure { max-width: var(--measure); }
+
+/* Masthead */
+.masthead {
+  border-bottom: 1px solid var(--rule);
+  padding-bottom: 1rem;
+  margin-bottom: 2.5rem;
+  display: flex;
+  flex-wrap: wrap;
+  align-items: baseline;
+  gap: 1rem 2rem;
+}
+.masthead .brand {
+  font-family: var(--serif);
+  font-size: 1.6rem;
+  font-weight: 500;
+  letter-spacing: 0.01em;
+  color: var(--fg);
+  text-decoration: none;
+  margin-right: auto;
+}
+.masthead .brand .dot { color: var(--accent); }
+.masthead nav {
+  font-family: var(--mono);
+  font-size: 0.78rem;
+  text-transform: uppercase;
+  letter-spacing: 0.13em;
+  display: flex;
+  gap: 1.5rem;
+}
+.masthead nav a {
+  color: var(--fg-mute);
+  text-decoration: none;
+  border-bottom: 1px solid transparent;
+  padding-bottom: 2px;
+}
+.masthead nav a:hover,
+.masthead nav a[aria-current="page"] {
+  color: var(--accent);
+  border-bottom-color: var(--accent);
+}
+
+/* Type */
+h1, h2, h3 { font-family: var(--serif); font-weight: 500; color: var(--fg); margin-top: 0; }
+h1 { font-size: 2.5rem; line-height: 1.15; margin-bottom: 1rem; }
+h1.hero { font-size: 3rem; line-height: 1.1; max-width: 24ch; margin-top: 2.5rem; }
+h2 { font-size: 1.6rem; line-height: 1.25; margin: 2.25rem 0 0.75rem; }
+h3 { font-size: 1.2rem; line-height: 1.3; margin: 1.5rem 0 0.5rem; }
+p { margin: 0 0 1rem; }
+.lede { font-size: 1.25rem; line-height: 1.5; color: var(--fg-deep); max-width: 38rem; }
+.lede em { color: var(--accent); font-style: italic; }
+.subhead {
+  font-family: var(--mono);
+  font-size: 0.78rem;
+  text-transform: uppercase;
+  letter-spacing: 0.18em;
+  color: var(--fg-mute);
+  margin-bottom: 0.5rem;
+}
+.kicker {
+  font-family: var(--mono);
+  font-size: 0.72rem;
+  text-transform: uppercase;
+  letter-spacing: 0.18em;
+  color: var(--accent);
+  margin-bottom: 0.75rem;
+}
+blockquote {
+  margin: 1.5rem 0;
+  padding-left: 1.25rem;
+  border-left: 2px solid var(--accent);
+  font-style: italic;
+  color: var(--fg-deep);
+}
+
+/* Site map (home) */
+.doors {
+  list-style: none;
+  padding: 0;
+  margin: 2.5rem 0;
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(15rem, 1fr));
+  gap: 1.25rem;
+}
+.doors li {
+  background: var(--bg-card);
+  border: 1px solid var(--rule-soft);
+  border-radius: 2px;
+  padding: 1.25rem 1.5rem 1.5rem;
+}
+.doors li a {
+  display: block;
+  text-decoration: none;
+  color: var(--fg);
+}
+.doors li:hover { border-color: var(--accent); }
+.doors li a h3 { color: var(--accent); margin-top: 0; }
+.doors li p { margin: 0.5rem 0 0; color: var(--fg-mute); font-size: 0.95rem; line-height: 1.5; }
+.doors li .arrow {
+  display: inline-block;
+  margin-top: 0.75rem;
+  font-family: var(--mono);
+  font-size: 0.78rem;
+  letter-spacing: 0.13em;
+  text-transform: uppercase;
+  color: var(--accent);
+}
+
+/* Directory page */
+.dir-toolbar {
+  background: var(--bg-card);
+  border: 1px solid var(--rule-soft);
+  border-radius: 2px;
+  padding: 1.25rem 1.5rem;
+  margin-bottom: 1.5rem;
+  display: grid;
+  grid-template-columns: 1fr;
+  gap: 1rem;
+}
+@media (min-width: 720px) {
+  .dir-toolbar { grid-template-columns: 1.4fr repeat(4, 1fr); }
+}
+.dir-toolbar label {
+  display: flex;
+  flex-direction: column;
+  gap: 0.3rem;
+  font-family: var(--mono);
+  font-size: 0.7rem;
+  text-transform: uppercase;
+  letter-spacing: 0.15em;
+  color: var(--fg-mute);
+}
+.dir-toolbar input,
+.dir-toolbar select {
+  font-family: var(--serif);
+  font-size: 1rem;
+  padding: 0.55rem 0.7rem;
+  border: 1px solid var(--rule);
+  background: var(--bg);
+  color: var(--fg);
+  border-radius: 2px;
+}
+.dir-toolbar input:focus,
+.dir-toolbar select:focus {
+  outline: none;
+  border-color: var(--accent);
+  box-shadow: 0 0 0 2px rgba(61, 90, 64, 0.18);
+}
+.dir-results-meta {
+  font-family: var(--mono);
+  font-size: 0.78rem;
+  letter-spacing: 0.1em;
+  color: var(--fg-mute);
+  margin-bottom: 1rem;
+  display: flex;
+  justify-content: space-between;
+  align-items: baseline;
+}
+.dir-results-meta .reset {
+  color: var(--accent);
+  text-decoration: none;
+  border-bottom: 1px dashed var(--accent);
+}
+ul.entries {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+  display: grid;
+  gap: 1.25rem;
+}
+.entry {
+  background: var(--bg-card);
+  border: 1px solid var(--rule-soft);
+  border-left: 3px solid var(--rule);
+  border-radius: 2px;
+  padding: 1.25rem 1.5rem 1.4rem;
+  transition: border-left-color 0.15s ease;
+}
+.entry:hover { border-left-color: var(--accent); }
+.entry .name {
+  font-family: var(--serif);
+  font-size: 1.3rem;
+  line-height: 1.25;
+  margin: 0 0 0.4rem;
+}
+.entry .name a { color: var(--fg); text-decoration: none; }
+.entry .name a:hover { color: var(--accent); }
+.entry .badges {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 0.4rem;
+  margin: 0.5rem 0 0.75rem;
+}
+.badge {
+  font-family: var(--mono);
+  font-size: 0.7rem;
+  letter-spacing: 0.1em;
+  text-transform: uppercase;
+  padding: 0.18rem 0.55rem;
+  border-radius: 2px;
+  background: var(--bg-soft);
+  color: var(--fg-deep);
+  border: 1px solid var(--rule-soft);
+}
+.badge.crisis { background: var(--crisis-bg); color: var(--crisis-fg); border-color: var(--crisis-bg); }
+.badge.cost-free { background: #DDE9DA; color: #2C4A2D; border-color: #BFD4BC; }
+.badge.cost-fee { background: #ECDDC9; color: #6E4A1F; border-color: #D6C29E; }
+.badge.cost-sliding { background: #E5DBC0; color: #5C4A1B; border-color: #C9BC92; }
+.badge.tradition { background: var(--bg); border-color: var(--rule-soft); }
+.entry p.description {
+  margin: 0.5rem 0 0.75rem;
+  color: var(--fg);
+  font-size: 1.0625rem;
+  line-height: 1.55;
+}
+.entry .locator {
+  font-family: var(--mono);
+  font-size: 0.78rem;
+  letter-spacing: 0.05em;
+  color: var(--fg-mute);
+  word-break: break-all;
+}
+.entry .locator a { color: var(--accent); text-decoration: underline; text-underline-offset: 2px; }
+.entry .locator-label { color: var(--fg-mute); margin-right: 0.5rem; text-transform: uppercase; letter-spacing: 0.13em; font-size: 0.7rem; }
+.entry .verification-flag {
+  font-family: var(--mono);
+  font-size: 0.68rem;
+  letter-spacing: 0.13em;
+  text-transform: uppercase;
+  color: var(--warn-fg);
+  background: var(--warn-bg);
+  padding: 0.15rem 0.5rem;
+  border-radius: 2px;
+  display: inline-block;
+  margin-top: 0.5rem;
+}
+.empty {
+  padding: 3rem 1.5rem;
+  text-align: center;
+  color: var(--fg-mute);
+  font-style: italic;
+  background: var(--bg-card);
+  border: 1px dashed var(--rule);
+  border-radius: 2px;
+}
+
+/* Disclaimer / About content rules */
+.prose { max-width: var(--measure); }
+.prose h2 { border-top: 1px solid var(--rule-soft); padding-top: 1.25rem; }
+.prose ul { padding-left: 1.5rem; }
+.prose ul li { margin-bottom: 0.4rem; }
+.callout {
+  background: var(--bg-card);
+  border-left: 3px solid var(--accent);
+  padding: 1.25rem 1.5rem;
+  margin: 1.5rem 0;
+  font-size: 1rem;
+  color: var(--fg-deep);
+}
+.callout.warn { border-left-color: var(--warn-fg); }
+.callout strong { color: var(--fg); font-variant: small-caps; letter-spacing: 0.05em; }
+
+/* Footer */
+footer.site-foot {
+  margin-top: 4rem;
+  padding-top: 1.5rem;
+  border-top: 1px solid var(--rule);
+  font-family: var(--mono);
+  font-size: 0.72rem;
+  letter-spacing: 0.1em;
+  color: var(--fg-mute);
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  gap: 0.75rem;
+  text-transform: uppercase;
+}
+footer.site-foot a { color: var(--fg-mute); text-decoration: none; border-bottom: 1px dotted var(--rule); }
+footer.site-foot a:hover { color: var(--accent); border-bottom-color: var(--accent); }
+
+@media (max-width: 540px) {
+  h1 { font-size: 2rem; }
+  h1.hero { font-size: 2.25rem; }
+  .lede { font-size: 1.1rem; }
+  .masthead { gap: 0.5rem 1rem; }
+  .masthead .brand { font-size: 1.3rem; }
+  .masthead nav { font-size: 0.7rem; gap: 1rem; }
+}
+</style>
+</head>
+<body>
+<div class="site-wrap">
+  <header class="masthead">
+    <a href="index.html" class="brand">gogoselfcontrol<span class="dot">.</span>org</a>
+    <nav aria-label="Primary">
+        <a href="index.html">Home</a>
+        <a href="directory.html">Directory</a>
+        <a href="about.html">About</a>
+        <a href="disclaimer.html" aria-current="page">Disclaimer</a>
+    </nav>
+  </header>
+
+  
+  <main class="prose">
+    <p class="kicker">Read this before you use the directory</p>
+    <h1>Disclaimer.</h1>
+
+    <p class="lede">
+      Plain language. We don't want anyone harmed by the way this site works.
+    </p>
+
+    <h2>Cold-listing notice</h2>
+    <p>
+      Every entry on this site is currently <strong>cold-listed</strong>.
+      That means an organization has been identified from public sources and added to the directory,
+      but its current status, current programs, current door, and current safety
+      have not been personally verified by a member of our team.
+      URLs may be stale. Phone numbers may have changed. Programs listed here may no longer run.
+    </p>
+    <p>
+      Treat every entry as a <em>starting point</em> for your own due diligence.
+      Call. Email. Read the org's current website. Ask a member.
+      Do not assume that listing here is endorsement, certification, or current truth.
+    </p>
+
+    <h2>No vetting, no ranking, no recommendation</h2>
+    <p>
+      The directory aggregates. It does not assess organizations on safety, quality,
+      ethical record, leadership, finances, or doctrine. We do not have the standing to make those judgments
+      and would not pretend to. Listing is presence-based: an organization exists, has a door,
+      and the door is publicly findable.
+    </p>
+
+    <h2 id="crisis">If you are in crisis right now</h2>
+    <div class="callout warn">
+      <p><strong>This site is a directory, not a crisis line.</strong> If you are in immediate danger to yourself or another person, please contact a crisis service directly:</p>
+      <ul style="margin-top: 0.5rem; font-size: 1rem;">
+        <li><strong>United States:</strong> 988 Suicide and Crisis Lifeline (call or text 988)</li>
+        <li><strong>Canada:</strong> 9-8-8 Suicide Crisis Helpline (call or text 988)</li>
+        <li><strong>UK:</strong> Samaritans 116 123 / CALM 0800 58 58 58</li>
+        <li><strong>Ireland:</strong> Samaritans 116 123 / Pieta 1800 247 247</li>
+        <li><strong>Australia:</strong> Lifeline 13 11 14 / MensLine 1300 78 99 78</li>
+        <li><strong>New Zealand:</strong> Lifeline 0800 543 354 / 1737 (Need to Talk)</li>
+      </ul>
+      <p style="margin-top: 0.75rem;">If you're outside these countries and need a crisis number, the directory's <a href="directory.html?crisis=yes">crisis-safe filter</a> will surface organizations that explicitly receive men in active crisis without prior screening.</p>
+    </div>
+
+    <h2>Sovereignty respect for Indigenous communities</h2>
+    <p>
+      Tribal-internal traditions — Native American, First Nations, Métis, Inuit, Aboriginal Australian,
+      Māori, AmaXhosa initiation, Hausa-Fulani emirate councils, Igbo umunna,
+      and many others mentioned in our jurisdiction files — are real and not directory-listable
+      in the form public organizations are. Listed Indigenous-led entries on this site are
+      community-controlled organizations with public intake. Tribal-internal practice belongs to the
+      communities that hold it. Outsiders should respect that distinction.
+    </p>
+
+    <h2>Trauma-informed framing</h2>
+    <p>
+      We try to write entries plainly. Some entries describe organizations whose programs have
+      historically retraumatized people — including men who were the harm-causers, men who were the harmed,
+      and women and children adjacent to either. We don't always know which is which from the outside.
+      If an entry's framing feels off to you, trust your own instinct first; the directory's listing
+      does not override your reading of an organization.
+    </p>
+
+    <h2>Directory does not authenticate</h2>
+    <p>
+      We do not run identity checks, background checks, or any other authentication
+      on listed organizations or their leaders. If an organization claims a credential, accreditation,
+      registration, or status, you should verify that claim directly with the relevant authority,
+      not with us.
+    </p>
+
+    <h2>Liability and safe harbor</h2>
+    <p>
+      Listing on this site is not endorsement, partnership, affiliation, or sponsorship.
+      The site operators do not accept liability for harm arising from interactions with listed organizations.
+      Walk through any door at your own discretion and risk.
+    </p>
+
+    <h2>Removing or correcting an entry</h2>
+    <p>
+      If you represent an organization listed here and want the entry removed, corrected, or updated,
+      please reach out via the contact link on the <a href="about.html">About page</a>. We will respond promptly
+      and respect reasonable removal requests without dispute.
+    </p>
+
+    <h2>Privacy</h2>
+    <p>
+      This site is a static-page directory. We do not run analytics, advertising tracking,
+      cookies, or user accounts. Filter and search work entirely in your browser.
+      The site does not store anything about your visit.
+    </p>
+
+    <p style="margin-top: 2rem;">
+      <a href="directory.html">I've read this. Open the directory →</a>
+    </p>
+  </main>
+
+
+  <footer class="site-foot">
+    <span>351 entries · cold-listed seed · regenerated 2026-05-07</span>
+    <span><a href="disclaimer.html">Disclaimer</a> · <a href="about.html">About</a></span>
+  </footer>
+</div>
+</body>
+</html>

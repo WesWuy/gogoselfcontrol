@@ -1,0 +1,435 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>About — gogoselfcontrol.org</title>
+<meta name="description" content="Help men who need their men to find their men. A directory of men's gatherings — circles, ministries, recovery rooms, mentorships, hiking collectives, therapeutic groups, civic and faith fraternals.">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=EB+Garamond:ital,wght@0,400;0,500;0,700;1,400;1,500&family=IBM+Plex+Mono:wght@400;500&display=swap" rel="stylesheet">
+<style>
+:root {
+  --bg: #F2EAD3;
+  --bg-card: #FBF6E8;
+  --bg-soft: #EBE2C5;
+  --fg: #2A2520;
+  --fg-mute: #6B6256;
+  --fg-deep: #423B30;
+  --accent: #3D5A40;
+  --accent-soft: #6E8A6F;
+  --rule: #C7B98F;
+  --rule-soft: #DDD2A8;
+  --warn-bg: #ECE0BF;
+  --warn-fg: #6B4F18;
+  --crisis-bg: #2A4D3A;
+  --crisis-fg: #F2EAD3;
+  --serif: 'EB Garamond', Garamond, 'Times New Roman', Georgia, serif;
+  --mono: 'IBM Plex Mono', Menlo, Consolas, monospace;
+  --measure: 36rem;
+  --measure-wide: 64rem;
+}
+* { box-sizing: border-box; }
+html { background: var(--bg); }
+body {
+  font-family: var(--serif);
+  font-size: 1.0625rem;
+  line-height: 1.55;
+  color: var(--fg);
+  background: var(--bg);
+  margin: 0;
+  -webkit-font-smoothing: antialiased;
+  text-rendering: optimizeLegibility;
+}
+a { color: var(--accent); text-decoration-thickness: 1px; text-underline-offset: 3px; }
+a:hover { color: var(--fg); }
+hr { border: none; border-top: 1px solid var(--rule-soft); margin: 2rem 0; }
+
+.site-wrap { max-width: var(--measure-wide); margin: 0 auto; padding: 2rem 1.5rem 3rem; }
+.measure { max-width: var(--measure); }
+
+/* Masthead */
+.masthead {
+  border-bottom: 1px solid var(--rule);
+  padding-bottom: 1rem;
+  margin-bottom: 2.5rem;
+  display: flex;
+  flex-wrap: wrap;
+  align-items: baseline;
+  gap: 1rem 2rem;
+}
+.masthead .brand {
+  font-family: var(--serif);
+  font-size: 1.6rem;
+  font-weight: 500;
+  letter-spacing: 0.01em;
+  color: var(--fg);
+  text-decoration: none;
+  margin-right: auto;
+}
+.masthead .brand .dot { color: var(--accent); }
+.masthead nav {
+  font-family: var(--mono);
+  font-size: 0.78rem;
+  text-transform: uppercase;
+  letter-spacing: 0.13em;
+  display: flex;
+  gap: 1.5rem;
+}
+.masthead nav a {
+  color: var(--fg-mute);
+  text-decoration: none;
+  border-bottom: 1px solid transparent;
+  padding-bottom: 2px;
+}
+.masthead nav a:hover,
+.masthead nav a[aria-current="page"] {
+  color: var(--accent);
+  border-bottom-color: var(--accent);
+}
+
+/* Type */
+h1, h2, h3 { font-family: var(--serif); font-weight: 500; color: var(--fg); margin-top: 0; }
+h1 { font-size: 2.5rem; line-height: 1.15; margin-bottom: 1rem; }
+h1.hero { font-size: 3rem; line-height: 1.1; max-width: 24ch; margin-top: 2.5rem; }
+h2 { font-size: 1.6rem; line-height: 1.25; margin: 2.25rem 0 0.75rem; }
+h3 { font-size: 1.2rem; line-height: 1.3; margin: 1.5rem 0 0.5rem; }
+p { margin: 0 0 1rem; }
+.lede { font-size: 1.25rem; line-height: 1.5; color: var(--fg-deep); max-width: 38rem; }
+.lede em { color: var(--accent); font-style: italic; }
+.subhead {
+  font-family: var(--mono);
+  font-size: 0.78rem;
+  text-transform: uppercase;
+  letter-spacing: 0.18em;
+  color: var(--fg-mute);
+  margin-bottom: 0.5rem;
+}
+.kicker {
+  font-family: var(--mono);
+  font-size: 0.72rem;
+  text-transform: uppercase;
+  letter-spacing: 0.18em;
+  color: var(--accent);
+  margin-bottom: 0.75rem;
+}
+blockquote {
+  margin: 1.5rem 0;
+  padding-left: 1.25rem;
+  border-left: 2px solid var(--accent);
+  font-style: italic;
+  color: var(--fg-deep);
+}
+
+/* Site map (home) */
+.doors {
+  list-style: none;
+  padding: 0;
+  margin: 2.5rem 0;
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(15rem, 1fr));
+  gap: 1.25rem;
+}
+.doors li {
+  background: var(--bg-card);
+  border: 1px solid var(--rule-soft);
+  border-radius: 2px;
+  padding: 1.25rem 1.5rem 1.5rem;
+}
+.doors li a {
+  display: block;
+  text-decoration: none;
+  color: var(--fg);
+}
+.doors li:hover { border-color: var(--accent); }
+.doors li a h3 { color: var(--accent); margin-top: 0; }
+.doors li p { margin: 0.5rem 0 0; color: var(--fg-mute); font-size: 0.95rem; line-height: 1.5; }
+.doors li .arrow {
+  display: inline-block;
+  margin-top: 0.75rem;
+  font-family: var(--mono);
+  font-size: 0.78rem;
+  letter-spacing: 0.13em;
+  text-transform: uppercase;
+  color: var(--accent);
+}
+
+/* Directory page */
+.dir-toolbar {
+  background: var(--bg-card);
+  border: 1px solid var(--rule-soft);
+  border-radius: 2px;
+  padding: 1.25rem 1.5rem;
+  margin-bottom: 1.5rem;
+  display: grid;
+  grid-template-columns: 1fr;
+  gap: 1rem;
+}
+@media (min-width: 720px) {
+  .dir-toolbar { grid-template-columns: 1.4fr repeat(4, 1fr); }
+}
+.dir-toolbar label {
+  display: flex;
+  flex-direction: column;
+  gap: 0.3rem;
+  font-family: var(--mono);
+  font-size: 0.7rem;
+  text-transform: uppercase;
+  letter-spacing: 0.15em;
+  color: var(--fg-mute);
+}
+.dir-toolbar input,
+.dir-toolbar select {
+  font-family: var(--serif);
+  font-size: 1rem;
+  padding: 0.55rem 0.7rem;
+  border: 1px solid var(--rule);
+  background: var(--bg);
+  color: var(--fg);
+  border-radius: 2px;
+}
+.dir-toolbar input:focus,
+.dir-toolbar select:focus {
+  outline: none;
+  border-color: var(--accent);
+  box-shadow: 0 0 0 2px rgba(61, 90, 64, 0.18);
+}
+.dir-results-meta {
+  font-family: var(--mono);
+  font-size: 0.78rem;
+  letter-spacing: 0.1em;
+  color: var(--fg-mute);
+  margin-bottom: 1rem;
+  display: flex;
+  justify-content: space-between;
+  align-items: baseline;
+}
+.dir-results-meta .reset {
+  color: var(--accent);
+  text-decoration: none;
+  border-bottom: 1px dashed var(--accent);
+}
+ul.entries {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+  display: grid;
+  gap: 1.25rem;
+}
+.entry {
+  background: var(--bg-card);
+  border: 1px solid var(--rule-soft);
+  border-left: 3px solid var(--rule);
+  border-radius: 2px;
+  padding: 1.25rem 1.5rem 1.4rem;
+  transition: border-left-color 0.15s ease;
+}
+.entry:hover { border-left-color: var(--accent); }
+.entry .name {
+  font-family: var(--serif);
+  font-size: 1.3rem;
+  line-height: 1.25;
+  margin: 0 0 0.4rem;
+}
+.entry .name a { color: var(--fg); text-decoration: none; }
+.entry .name a:hover { color: var(--accent); }
+.entry .badges {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 0.4rem;
+  margin: 0.5rem 0 0.75rem;
+}
+.badge {
+  font-family: var(--mono);
+  font-size: 0.7rem;
+  letter-spacing: 0.1em;
+  text-transform: uppercase;
+  padding: 0.18rem 0.55rem;
+  border-radius: 2px;
+  background: var(--bg-soft);
+  color: var(--fg-deep);
+  border: 1px solid var(--rule-soft);
+}
+.badge.crisis { background: var(--crisis-bg); color: var(--crisis-fg); border-color: var(--crisis-bg); }
+.badge.cost-free { background: #DDE9DA; color: #2C4A2D; border-color: #BFD4BC; }
+.badge.cost-fee { background: #ECDDC9; color: #6E4A1F; border-color: #D6C29E; }
+.badge.cost-sliding { background: #E5DBC0; color: #5C4A1B; border-color: #C9BC92; }
+.badge.tradition { background: var(--bg); border-color: var(--rule-soft); }
+.entry p.description {
+  margin: 0.5rem 0 0.75rem;
+  color: var(--fg);
+  font-size: 1.0625rem;
+  line-height: 1.55;
+}
+.entry .locator {
+  font-family: var(--mono);
+  font-size: 0.78rem;
+  letter-spacing: 0.05em;
+  color: var(--fg-mute);
+  word-break: break-all;
+}
+.entry .locator a { color: var(--accent); text-decoration: underline; text-underline-offset: 2px; }
+.entry .locator-label { color: var(--fg-mute); margin-right: 0.5rem; text-transform: uppercase; letter-spacing: 0.13em; font-size: 0.7rem; }
+.entry .verification-flag {
+  font-family: var(--mono);
+  font-size: 0.68rem;
+  letter-spacing: 0.13em;
+  text-transform: uppercase;
+  color: var(--warn-fg);
+  background: var(--warn-bg);
+  padding: 0.15rem 0.5rem;
+  border-radius: 2px;
+  display: inline-block;
+  margin-top: 0.5rem;
+}
+.empty {
+  padding: 3rem 1.5rem;
+  text-align: center;
+  color: var(--fg-mute);
+  font-style: italic;
+  background: var(--bg-card);
+  border: 1px dashed var(--rule);
+  border-radius: 2px;
+}
+
+/* Disclaimer / About content rules */
+.prose { max-width: var(--measure); }
+.prose h2 { border-top: 1px solid var(--rule-soft); padding-top: 1.25rem; }
+.prose ul { padding-left: 1.5rem; }
+.prose ul li { margin-bottom: 0.4rem; }
+.callout {
+  background: var(--bg-card);
+  border-left: 3px solid var(--accent);
+  padding: 1.25rem 1.5rem;
+  margin: 1.5rem 0;
+  font-size: 1rem;
+  color: var(--fg-deep);
+}
+.callout.warn { border-left-color: var(--warn-fg); }
+.callout strong { color: var(--fg); font-variant: small-caps; letter-spacing: 0.05em; }
+
+/* Footer */
+footer.site-foot {
+  margin-top: 4rem;
+  padding-top: 1.5rem;
+  border-top: 1px solid var(--rule);
+  font-family: var(--mono);
+  font-size: 0.72rem;
+  letter-spacing: 0.1em;
+  color: var(--fg-mute);
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  gap: 0.75rem;
+  text-transform: uppercase;
+}
+footer.site-foot a { color: var(--fg-mute); text-decoration: none; border-bottom: 1px dotted var(--rule); }
+footer.site-foot a:hover { color: var(--accent); border-bottom-color: var(--accent); }
+
+@media (max-width: 540px) {
+  h1 { font-size: 2rem; }
+  h1.hero { font-size: 2.25rem; }
+  .lede { font-size: 1.1rem; }
+  .masthead { gap: 0.5rem 1rem; }
+  .masthead .brand { font-size: 1.3rem; }
+  .masthead nav { font-size: 0.7rem; gap: 1rem; }
+}
+</style>
+</head>
+<body>
+<div class="site-wrap">
+  <header class="masthead">
+    <a href="index.html" class="brand">gogoselfcontrol<span class="dot">.</span>org</a>
+    <nav aria-label="Primary">
+        <a href="index.html">Home</a>
+        <a href="directory.html">Directory</a>
+        <a href="about.html" aria-current="page">About</a>
+        <a href="disclaimer.html">Disclaimer</a>
+    </nav>
+  </header>
+
+  
+  <main class="prose">
+    <p class="kicker">About the project</p>
+    <h1>What this is, and what it isn't.</h1>
+
+    <p class="lede">
+      gogoselfcontrol.org is a directory hub for men's gatherings.
+      The mission line — <em>"help men who need their men to find their men"</em> —
+      describes the work in a single sentence.
+    </p>
+
+    <h2>The directory</h2>
+    <p>
+      The directory aggregates 351 organizations that already exist and want to be found,
+      across 138 jurisdiction files (countries, states, provinces, regions).
+      We don't run them. We don't rank them. We don't recommend one over another.
+      We tell you what's there. You decide where to walk in.
+    </p>
+
+    <h2>Who this is for</h2>
+    <p>
+      The priority user is <strong>the man in crisis with nowhere obvious to go</strong>.
+      Every product decision is meant to serve him first.
+      Other users — women assessing safety, facilitators, funders, men already in the work —
+      are real and welcome, but secondary.
+    </p>
+
+    <h2>Faith and tone</h2>
+    <p>
+      The site is religion-dry by default. A man arriving here should not feel he's walked into
+      a Christian space, or any specific tradition's space.
+      Listed entries describe themselves accurately — a Christian organization is named as Christian,
+      a Sufi order is named as Sufi — but the directory's <em>own</em> voice stays plain
+      and tradition-neutral. Faith specificity comes from each entry, not from the framing.
+    </p>
+
+    <h2>What the directory deliberately is not</h2>
+    <ul>
+      <li>Not a vetting service. We do not assess organizations on safety, quality, or ethics.</li>
+      <li>Not a ranking. We do not say one is better than another.</li>
+      <li>Not a referral. We do not steer. We list the doors; you walk through.</li>
+      <li>Not a clinical service. We are not licensed to diagnose, treat, or counsel.</li>
+      <li>Not a substitute for a crisis line. <a href="disclaimer.html#crisis">If you are in crisis, see the disclaimer page.</a></li>
+    </ul>
+
+    <h2>The team</h2>
+    <p>
+      A small team running this on nights and weekends.
+      The founder is the public face but not the entire brand —
+      think Flo from Progressive: visible, recognizable,
+      but the brand exists independently.
+      Wes is the technical implementer. Anthony contributes ideas.
+      The work pace is deliberately patient.
+    </p>
+
+    <h2>How we got here</h2>
+    <p>
+      The directory began as a research file in Obsidian. Each entry has YAML frontmatter
+      specifying its category, tradition, intake pathway, cost, and whether it can receive
+      a man in active crisis. The file format is open and the export is reproducible.
+      As the directory expands, the underlying schema is the durable artifact —
+      what you see on this page is one rendering of it.
+    </p>
+
+    <h2>What's next</h2>
+    <p>
+      The next gating piece of work is verification:
+      moving entries from <code>cold-listed</code> (researched but not personally confirmed)
+      to <code>member-confirmed</code> (verified by phone or in person).
+      Until verification is widespread, treat every entry as a starting point for your own due diligence.
+    </p>
+
+    <p style="margin-top: 2rem;">
+      <a href="directory.html">Open the directory →</a>
+    </p>
+  </main>
+
+
+  <footer class="site-foot">
+    <span>351 entries · cold-listed seed · regenerated 2026-05-07</span>
+    <span><a href="disclaimer.html">Disclaimer</a> · <a href="about.html">About</a></span>
+  </footer>
+</div>
+</body>
+</html>
