@@ -137,9 +137,88 @@ body.home {
   font-style: italic;
   color: var(--fg-mute);
   font-size: 1.05rem;
-  margin: 0 0 3.5rem;
+  margin: 0 0 2rem;
   max-width: 28rem;
 }
+
+/* Prominent crisis CTA on home — above search */
+.crisis-now {
+  display: inline-flex;
+  align-items: center;
+  gap: 0.75rem;
+  margin: 0 auto 2.5rem;
+  padding: 0.95rem 1.4rem;
+  background: var(--crisis-bg);
+  color: var(--crisis-fg);
+  text-decoration: none;
+  border-radius: 2px;
+  font-family: var(--mono);
+  font-size: 0.85rem;
+  text-transform: uppercase;
+  letter-spacing: 0.16em;
+  font-weight: 500;
+  transition: transform 0.15s ease, box-shadow 0.15s ease;
+  box-shadow: 0 2px 8px rgba(42, 77, 58, 0.18);
+  min-height: 48px;
+}
+.crisis-now:hover, .crisis-now:focus {
+  transform: translateY(-1px);
+  box-shadow: 0 4px 14px rgba(42, 77, 58, 0.28);
+  color: var(--crisis-fg);
+  outline: none;
+}
+.crisis-now-arrow {
+  font-family: var(--serif);
+  font-size: 1.1rem;
+  letter-spacing: 0;
+}
+@media (max-width: 540px) {
+  .crisis-now { width: 100%; max-width: 24rem; justify-content: center; padding: 1rem 1.2rem; }
+}
+
+/* Crisis-block tel: links + locale priority */
+.crisis-block .tel {
+  font-family: var(--mono);
+  font-size: 1rem;
+  font-weight: 500;
+  letter-spacing: 0.05em;
+  white-space: nowrap;
+  color: var(--crisis-fg);
+  text-decoration: underline;
+  text-underline-offset: 3px;
+  text-decoration-thickness: 1px;
+  padding: 0.4rem 0;
+  display: inline-block;
+  min-height: 44px;
+  line-height: 1.2;
+}
+.crisis-block .tel:hover { color: var(--accent-soft); }
+.crisis-block li.locale-priority {
+  background: rgba(255, 255, 255, 0.06);
+  padding: 0.7rem 0.7rem;
+  margin: 0.25rem -0.7rem;
+  border-radius: 2px;
+  border-top: none;
+}
+.crisis-block li.locale-priority + li { border-top: 1px solid rgba(242, 234, 211, 0.2); }
+.crisis-block li.locale-priority .region {
+  color: var(--bg);
+  font-weight: 500;
+}
+
+/* Disclaimer crisis-line tap targets */
+.callout.warn .tel {
+  font-family: var(--mono);
+  font-weight: 500;
+  white-space: nowrap;
+  padding: 0.15rem 0.4rem;
+  border-radius: 2px;
+  background: rgba(107, 79, 24, 0.08);
+  text-decoration: none;
+  color: var(--warn-fg);
+}
+.callout.warn .tel:hover { background: rgba(107, 79, 24, 0.18); text-decoration: underline; }
+
 .home-prompt {
   font-family: var(--serif);
   font-size: 1.55rem;
@@ -621,7 +700,7 @@ footer.site-foot a:hover { color: var(--accent); border-bottom-color: var(--acce
 
 
   <footer class="site-foot">
-    <span>351 entries · cold-listed seed · regenerated 2026-05-07</span>
+    <span>351 entries · cold-listed seed · regenerated 2026-05-08</span>
     <span><a href="disclaimer.html">Disclaimer</a> · <a href="about.html">About</a></span>
   </footer>
 </div>
