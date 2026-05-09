@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-05-07",
+  "generated_at": "2026-05-08",
   "schema_version": "1.2",
   "entry_count": 351,
   "entries": [
@@ -625,7 +625,7 @@
     },
     {
       "name": "Adventist Men's Ministries",
-      "url": "https://adventistmen.org",
+      "url": "https://www.adventist.org",
       "category": "faith",
       "format": "in-person",
       "regions": [
@@ -1963,7 +1963,7 @@
       "name": "CALM (Campaign Against Living Miserably)",
       "url": "https://www.thecalmzone.net",
       "category": "mens-work",
-      "format": "online",
+      "format": "virtual",
       "regions": [
         "uk-nationwide"
       ],
@@ -4160,7 +4160,7 @@
     },
     {
       "name": "Holy Name Society",
-      "url": "https://www.nahns.com",
+      "url": "https://en.wikipedia.org/wiki/Holy_Name_Society",
       "category": "faith",
       "format": "in-person",
       "regions": [
@@ -4438,7 +4438,7 @@
     },
     {
       "name": "Inside Out Dad",
-      "url": "https://www.fatherhood.org/programs/inside-out-dad",
+      "url": "https://store.fatherhood.org/insideout-dad-facilitators-kit/",
       "category": "reentry",
       "format": "in-person",
       "regions": [
@@ -5892,7 +5892,7 @@
       "name": "Men's Health Network",
       "url": "https://www.menshealthnetwork.org",
       "category": "mens-work",
-      "format": "online",
+      "format": "virtual",
       "regions": [
         "us-nationwide",
         "online"
@@ -8313,7 +8313,7 @@
       "name": "Samaritans",
       "url": "https://www.samaritans.org",
       "category": "mens-work",
-      "format": "online",
+      "format": "virtual",
       "regions": [
         "uk-nationwide",
         "ireland-nationwide"
@@ -9225,7 +9225,7 @@
     },
     {
       "name": "Tablighi Jamaat",
-      "url": [],
+      "url": "https://en.wikipedia.org/wiki/Tablighi_Jamaat",
       "category": "faith",
       "format": "in-person",
       "regions": [
@@ -10637,7 +10637,7 @@
     },
     {
       "name": "Yiriman Project",
-      "url": "https://kalacc.org/the-yiriman-project",
+      "url": "https://kalacc.org/projects/yiriman-project/",
       "category": "rites",
       "format": "in-person",
       "regions": [
