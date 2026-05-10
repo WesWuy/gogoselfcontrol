@@ -6,7 +6,7 @@
     {
       "name": "100 Black Men of America",
       "url": "https://100blackmen.org/",
-      "category": "civic",
+      "category": "civic-fraternal",
       "format": "in-person",
       "regions": [
         "us-nationwide"
@@ -36,7 +36,7 @@
     {
       "name": "National 4-H Council",
       "url": "https://4-h.org",
-      "category": "rites",
+      "category": "rites-boys",
       "format": "in-person",
       "regions": [
         "us-nationwide"
@@ -66,7 +66,7 @@
     {
       "name": "611 Bread of Life Christian Church Men's Ministry",
       "url": "https://611hk.org",
-      "category": "faith",
+      "category": "faith-community",
       "format": "hybrid",
       "regions": [
         "hong-kong-nationwide",
@@ -98,7 +98,7 @@
     {
       "name": "Alcoholics Anonymous Bahamas",
       "url": "https://aabahamas.org",
-      "category": "recovery",
+      "category": "drop-in",
       "format": "hybrid",
       "regions": [
         "bahamas-nationwide",
@@ -129,7 +129,7 @@
     {
       "name": "Alcoholics Anonymous Barbados",
       "url": "https://aabarbados.org",
-      "category": "recovery",
+      "category": "drop-in",
       "format": "hybrid",
       "regions": [
         "barbados-nationwide",
@@ -160,7 +160,7 @@
     {
       "name": "AA en Espa\u00f1ol (Alcoh\u00f3licos An\u00f3nimos en Espa\u00f1ol)",
       "url": "https://www.aa.org/es",
-      "category": "recovery",
+      "category": "drop-in",
       "format": "hybrid",
       "regions": [
         "us-nationwide",
@@ -192,7 +192,7 @@
     {
       "name": "Alcoholics Anonymous Ghana",
       "url": "https://aaghana.org",
-      "category": "recovery",
+      "category": "drop-in",
       "format": "hybrid",
       "regions": [
         "ghana-nationwide",
@@ -222,7 +222,7 @@
     {
       "name": "Alcoholics Anonymous Hong Kong",
       "url": "https://aa-hk.org",
-      "category": "recovery",
+      "category": "drop-in",
       "format": "hybrid",
       "regions": [
         "hong-kong-nationwide",
@@ -254,7 +254,7 @@
     {
       "name": "Alcoholics Anonymous India",
       "url": "https://www.aagsoindia.org/",
-      "category": "recovery",
+      "category": "drop-in",
       "format": "hybrid",
       "regions": [
         "india-nationwide",
@@ -286,7 +286,7 @@
     {
       "name": "Alcoholics Anonymous Jamaica",
       "url": "https://www.aajamaica.org/",
-      "category": "recovery",
+      "category": "drop-in",
       "format": "hybrid",
       "regions": [
         "jamaica-nationwide",
@@ -317,7 +317,7 @@
     {
       "name": "Alcoholics Anonymous Kenya",
       "url": "https://aakenya.co.ke",
-      "category": "recovery",
+      "category": "drop-in",
       "format": "hybrid",
       "regions": [
         "kenya-nationwide",
@@ -348,7 +348,7 @@
     {
       "name": "Alcoholics Anonymous Malaysia",
       "url": "https://aamalaysia.org",
-      "category": "recovery",
+      "category": "drop-in",
       "format": "hybrid",
       "regions": [
         "malaysia-nationwide",
@@ -379,7 +379,7 @@
     {
       "name": "Alcoholics Anonymous Nigeria",
       "url": "https://aanigeria.org",
-      "category": "recovery",
+      "category": "drop-in",
       "format": "hybrid",
       "regions": [
         "nigeria-nationwide",
@@ -409,7 +409,7 @@
     {
       "name": "Alcoholics Anonymous Philippines",
       "url": "https://aaphilippines.org",
-      "category": "recovery",
+      "category": "drop-in",
       "format": "hybrid",
       "regions": [
         "philippines-nationwide",
@@ -441,7 +441,7 @@
     {
       "name": "Alcoholics Anonymous Singapore",
       "url": "https://aasingapore.org",
-      "category": "recovery",
+      "category": "drop-in",
       "format": "hybrid",
       "regions": [
         "singapore-nationwide",
@@ -472,7 +472,7 @@
     {
       "name": "Alcoholics Anonymous South Africa",
       "url": "https://aasouthafrica.org.za",
-      "category": "recovery",
+      "category": "drop-in",
       "format": "hybrid",
       "regions": [
         "south-africa-nationwide",
@@ -503,7 +503,7 @@
     {
       "name": "Alcoholics Anonymous Trinidad and Tobago",
       "url": "https://www.aatt.org/",
-      "category": "recovery",
+      "category": "drop-in",
       "format": "hybrid",
       "regions": [
         "trinidad-and-tobago-nationwide",
@@ -534,7 +534,7 @@
     {
       "name": "Alcoholics Anonymous United Arab Emirates",
       "url": "https://aa-uae.org",
-      "category": "recovery",
+      "category": "drop-in",
       "format": "hybrid",
       "regions": [
         "united-arab-emirates-nationwide",
@@ -566,7 +566,7 @@
     {
       "name": "Acts 29 Network",
       "url": "https://www.acts29.com",
-      "category": "faith",
+      "category": "faith-community",
       "format": "in-person",
       "regions": [
         "us-nationwide"
@@ -595,7 +595,7 @@
     {
       "name": "Adult Children of Alcoholics & Dysfunctional Families (ACA)",
       "url": "https://adultchildren.org",
-      "category": "recovery",
+      "category": "drop-in",
       "format": "hybrid",
       "regions": [
         "us-nationwide",
@@ -626,7 +626,7 @@
     {
       "name": "Adventist Men's Ministries",
       "url": "https://www.adventist.org",
-      "category": "faith",
+      "category": "faith-community",
       "format": "in-person",
       "regions": [
         "us-nationwide"
@@ -656,7 +656,7 @@
     {
       "name": "AHEPA (American Hellenic Educational Progressive Association)",
       "url": "https://ahepa.org/",
-      "category": "civic",
+      "category": "civic-fraternal",
       "format": "in-person",
       "regions": [
         "us-nationwide"
@@ -686,7 +686,7 @@
     {
       "name": "Alcoholics Anonymous",
       "url": "https://www.aa.org",
-      "category": "recovery",
+      "category": "drop-in",
       "format": "hybrid",
       "regions": [
         "us-nationwide",
@@ -716,7 +716,7 @@
     {
       "name": "Aleph Society",
       "url": "https://alephsociety.org",
-      "category": "faith",
+      "category": "faith-community",
       "format": "hybrid",
       "regions": [
         "us-nationwide",
@@ -776,7 +776,7 @@
     {
       "name": "Alpine Club of Canada (ACC)",
       "url": "https://alpineclubofcanada.ca/",
-      "category": "outdoor",
+      "category": "outdoor-fitness",
       "format": "in-person",
       "regions": [
         "canada-nationwide"
@@ -808,7 +808,7 @@
     {
       "name": "AME Sons of Allen",
       "url": "https://www.ame-church.com",
-      "category": "faith",
+      "category": "faith-community",
       "format": "in-person",
       "regions": [
         "us-nationwide"
@@ -839,7 +839,7 @@
     {
       "name": "AME Zion Men's Ministry",
       "url": "https://amezion.org/",
-      "category": "faith",
+      "category": "faith-community",
       "format": "in-person",
       "regions": [
         "us-nationwide"
@@ -869,7 +869,7 @@
     {
       "name": "American Alpine Club",
       "url": "https://americanalpineclub.org",
-      "category": "outdoor",
+      "category": "outdoor-fitness",
       "format": "in-person",
       "regions": [
         "us-nationwide"
@@ -901,7 +901,7 @@
     {
       "name": "American Group Psychotherapy Association",
       "url": "https://agpa.org/",
-      "category": "therapy",
+      "category": "therapy-clinical",
       "format": "in-person",
       "regions": [
         "us-nationwide"
@@ -930,7 +930,7 @@
     {
       "name": "AMVETS (American Veterans)",
       "url": "https://www.amvets.org",
-      "category": "civic",
+      "category": "civic-fraternal",
       "format": "in-person",
       "regions": [
         "us-nationwide"
@@ -959,7 +959,7 @@
     {
       "name": "ANAVETS (Army, Navy & Air Force Veterans in Canada)",
       "url": "https://anavets.ca",
-      "category": "civic",
+      "category": "civic-fraternal",
       "format": "in-person",
       "regions": [
         "canada-nationwide"
@@ -988,7 +988,7 @@
     {
       "name": "Ancient Order of Hibernians (AOH)",
       "url": "https://aoh.com/",
-      "category": "civic",
+      "category": "civic-fraternal",
       "format": "in-person",
       "regions": [
         "us-nationwide"
@@ -1019,7 +1019,7 @@
     {
       "name": "Andy's Man Club",
       "url": "https://andysmanclub.co.uk",
-      "category": "mens-work",
+      "category": "drop-in",
       "format": "in-person",
       "regions": [
         "uk-nationwide"
@@ -1050,7 +1050,7 @@
     {
       "name": "Anglican Church of Canada Men's Ministries",
       "url": "https://www.anglican.ca",
-      "category": "faith",
+      "category": "faith-community",
       "format": "in-person",
       "regions": [
         "canada-nationwide"
@@ -1079,7 +1079,7 @@
     {
       "name": "Anglican Men's Fellowship \u2014 Diocese of Jamaica & The Cayman Islands",
       "url": "https://anglicandioceseofjamaica.org",
-      "category": "faith",
+      "category": "faith-community",
       "format": "in-person",
       "regions": [
         "jamaica-nationwide"
@@ -1110,7 +1110,7 @@
     {
       "name": "Anglican Men's Fellowship \u2014 Anglican Church of Kenya (ACK)",
       "url": "https://www.ackenya.org/",
-      "category": "faith",
+      "category": "faith-community",
       "format": "in-person",
       "regions": [
         "kenya-nationwide"
@@ -1140,7 +1140,7 @@
     {
       "name": "Anglican Men's Society of the Church of Nigeria",
       "url": "https://anglican-nig.org",
-      "category": "faith",
+      "category": "faith-community",
       "format": "in-person",
       "regions": [
         "nigeria-nationwide"
@@ -1171,7 +1171,7 @@
     {
       "name": "Anglican Sheng Kung Hui (Hong Kong) Men's Fellowship",
       "url": "https://www.hkskh.org",
-      "category": "faith",
+      "category": "faith-community",
       "format": "in-person",
       "regions": [
         "hong-kong-nationwide"
@@ -1202,7 +1202,7 @@
     {
       "name": "Australian Men's Health Forum (AMHF)",
       "url": "https://www.amhf.org.au",
-      "category": "mens-work",
+      "category": "drop-in",
       "format": "hybrid",
       "regions": [
         "australia-nationwide",
@@ -1233,7 +1233,7 @@
     {
       "name": "Australian Men's Shed Association",
       "url": "https://mensshed.org",
-      "category": "mens-work",
+      "category": "drop-in",
       "format": "in-person",
       "regions": [
         "australia-nationwide"
@@ -1265,7 +1265,7 @@
     {
       "name": "Authentic Manhood / Men's Fraternity",
       "url": "https://www.authenticmanhood.com/",
-      "category": "faith",
+      "category": "faith-community",
       "format": "hybrid",
       "regions": [
         "us-nationwide"
@@ -1296,7 +1296,7 @@
     {
       "name": "Backcountry Hunters & Anglers Canada",
       "url": "https://www.backcountryhunters.org",
-      "category": "outdoor",
+      "category": "outdoor-fitness",
       "format": "in-person",
       "regions": [
         "canada-nationwide"
@@ -1327,7 +1327,7 @@
     {
       "name": "Backcountry Hunters & Anglers",
       "url": "https://www.backcountryhunters.org",
-      "category": "outdoor",
+      "category": "outdoor-fitness",
       "format": "in-person",
       "regions": [
         "us-nationwide"
@@ -1357,7 +1357,7 @@
     {
       "name": "Bah\u00e1'\u00ed Faith (US Community)",
       "url": "https://www.bahai.us",
-      "category": "faith",
+      "category": "faith-community",
       "format": "in-person",
       "regions": [
         "us-nationwide"
@@ -1386,7 +1386,7 @@
     {
       "name": "BAPS Swaminarayan Sanstha",
       "url": "https://www.baps.org",
-      "category": "faith",
+      "category": "faith-community",
       "format": "in-person",
       "regions": [
         "us-multiple"
@@ -1418,7 +1418,7 @@
     {
       "name": "Bellwood Health Services",
       "url": "https://www.edgewoodhealthnetwork.com/locations/bellwood/",
-      "category": "recovery",
+      "category": "therapy-clinical",
       "format": "in-person",
       "regions": [
         "ca-ON"
@@ -1448,7 +1448,7 @@
     {
       "name": "Beyond Blue",
       "url": "https://www.beyondblue.org.au",
-      "category": "therapy",
+      "category": "therapy-clinical",
       "format": "hybrid",
       "regions": [
         "australia-nationwide",
@@ -1481,7 +1481,7 @@
     {
       "name": "Big Brothers Big Sisters of Canada",
       "url": "https://bigbrothersbigsisters.ca",
-      "category": "rites",
+      "category": "rites-boys",
       "format": "in-person",
       "regions": [
         "canada-nationwide"
@@ -1510,7 +1510,7 @@
     {
       "name": "Big Brothers Big Sisters of America",
       "url": "https://www.bbbs.org",
-      "category": "rites",
+      "category": "rites-boys",
       "format": "in-person",
       "regions": [
         "us-nationwide"
@@ -1539,7 +1539,7 @@
     {
       "name": "Big Buddy Mentoring",
       "url": "https://www.bigbuddy.org.nz/",
-      "category": "rites",
+      "category": "rites-boys",
       "format": "in-person",
       "regions": [
         "new-zealand-nationwide"
@@ -1597,7 +1597,7 @@
     {
       "name": "Light of Jesus Family \u2014 Brotherhood",
       "url": "https://lightofjesus.com",
-      "category": "faith",
+      "category": "faith-community",
       "format": "hybrid",
       "regions": [
         "philippines-nationwide",
@@ -1629,7 +1629,7 @@
     {
       "name": "Boys & Girls Clubs of America",
       "url": "https://www.bgca.org",
-      "category": "rites",
+      "category": "rites-boys",
       "format": "in-person",
       "regions": [
         "us-nationwide"
@@ -1659,7 +1659,7 @@
     {
       "name": "The Boys' Brigade in Malaysia",
       "url": "https://bb.org.my",
-      "category": "rites",
+      "category": "rites-boys",
       "format": "in-person",
       "regions": [
         "malaysia-nationwide"
@@ -1690,7 +1690,7 @@
     {
       "name": "The Boys' Brigade in Singapore",
       "url": "https://bb.org.sg/",
-      "category": "rites",
+      "category": "rites-boys",
       "format": "in-person",
       "regions": [
         "singapore-nationwide"
@@ -1721,7 +1721,7 @@
     {
       "name": "The Boys' Brigade",
       "url": "https://boys-brigade.org.uk",
-      "category": "rites",
+      "category": "rites-boys",
       "format": "in-person",
       "regions": [
         "uk-nationwide",
@@ -1752,7 +1752,7 @@
     {
       "name": "Boys to Men Mentoring Network",
       "url": "https://boystomen.org",
-      "category": "rites",
+      "category": "rites-boys",
       "format": "in-person",
       "regions": [
         "us-nationwide"
@@ -1781,7 +1781,7 @@
     {
       "name": "Benevolent and Protective Order of Elks (BPOE)",
       "url": "https://www.elks.org",
-      "category": "civic",
+      "category": "civic-fraternal",
       "format": "in-person",
       "regions": [
         "us-nationwide"
@@ -1811,7 +1811,7 @@
     {
       "name": "Brotherhood of Saint Andrew Canada",
       "url": "https://www.brothersandrew.net",
-      "category": "faith",
+      "category": "faith-community",
       "format": "in-person",
       "regions": [
         "canada-nationwide"
@@ -1841,7 +1841,7 @@
     {
       "name": "Brotherhood of St Andrew India",
       "url": "https://cnisynod.org",
-      "category": "faith",
+      "category": "faith-community",
       "format": "in-person",
       "regions": [
         "india-nationwide"
@@ -1873,7 +1873,7 @@
     {
       "name": "Brotherhood of St. Andrew",
       "url": "https://www.brothersandrew.net",
-      "category": "faith",
+      "category": "faith-community",
       "format": "in-person",
       "regions": [
         "us-nationwide"
@@ -1903,7 +1903,7 @@
     {
       "name": "Brothers in Arms NZ",
       "url": "https://brothersinarms.co.nz",
-      "category": "mens-work",
+      "category": "drop-in",
       "format": "in-person",
       "regions": [
         "new-zealand-nationwide"
@@ -1932,7 +1932,7 @@
     {
       "name": "Buddhist Churches of America (BCA)",
       "url": "https://www.buddhistchurchesofamerica.org",
-      "category": "faith",
+      "category": "faith-community",
       "format": "in-person",
       "regions": [
         "us-multiple"
@@ -1962,7 +1962,7 @@
     {
       "name": "CALM (Campaign Against Living Miserably)",
       "url": "https://www.thecalmzone.net",
-      "category": "mens-work",
+      "category": "drop-in",
       "format": "virtual",
       "regions": [
         "uk-nationwide"
@@ -1991,7 +1991,7 @@
     {
       "name": "Centre for Addiction and Mental Health (CAMH)",
       "url": "https://www.camh.ca",
-      "category": "recovery",
+      "category": "drop-in",
       "format": "in-person",
       "regions": [
         "ca-ON"
@@ -2022,7 +2022,7 @@
     {
       "name": "Canadian Baptist Ministries",
       "url": "https://www.cbmin.org",
-      "category": "faith",
+      "category": "faith-community",
       "format": "in-person",
       "regions": [
         "canada-nationwide"
@@ -2050,7 +2050,7 @@
     {
       "name": "Canadian Cadet Programs (Sea / Army / Air Cadets)",
       "url": "https://cadets.ca",
-      "category": "rites",
+      "category": "rites-boys",
       "format": "in-person",
       "regions": [
         "canada-nationwide"
@@ -2082,7 +2082,7 @@
     {
       "name": "Canadian Centre for Men and Families (CCMF)",
       "url": "https://menandfamilies.org",
-      "category": "therapy",
+      "category": "therapy-clinical",
       "format": "hybrid",
       "regions": [
         "canada-nationwide"
@@ -2114,7 +2114,7 @@
     {
       "name": "Canadian Mental Health Association (CMHA)",
       "url": "https://cmha.ca",
-      "category": "therapy",
+      "category": "therapy-clinical",
       "format": "hybrid",
       "regions": [
         "canada-nationwide"
@@ -2145,7 +2145,7 @@
     {
       "name": "Catholic Bishops' Conference of the Philippines (CBCP) Men's Ministry",
       "url": "https://cbcponline.net",
-      "category": "faith",
+      "category": "faith-community",
       "format": "in-person",
       "regions": [
         "philippines-nationwide"
@@ -2175,7 +2175,7 @@
     {
       "name": "Catholic Diocese of Hong Kong Men's Ministry",
       "url": "https://catholic.org.hk",
-      "category": "faith",
+      "category": "faith-community",
       "format": "in-person",
       "regions": [
         "hong-kong-nationwide"
@@ -2205,7 +2205,7 @@
     {
       "name": "Catholic Men Association of Kenya",
       "url": "https://kccb.or.ke",
-      "category": "faith",
+      "category": "faith-community",
       "format": "in-person",
       "regions": [
         "kenya-nationwide"
@@ -2236,7 +2236,7 @@
     {
       "name": "Catholic Men Organisation of Nigeria (CMON)",
       "url": "https://cmonnational.org",
-      "category": "faith",
+      "category": "faith-community",
       "format": "in-person",
       "regions": [
         "nigeria-nationwide"
@@ -2267,7 +2267,7 @@
     {
       "name": "Catholic Men's Society of Ghana",
       "url": "https://catholicchurchghana.com",
-      "category": "faith",
+      "category": "faith-community",
       "format": "in-person",
       "regions": [
         "ghana-nationwide"
@@ -2297,7 +2297,7 @@
     {
       "name": "Catholic War Veterans of the USA",
       "url": "https://www.cwv.org",
-      "category": "civic",
+      "category": "civic-fraternal",
       "format": "in-person",
       "regions": [
         "us-nationwide"
@@ -2327,7 +2327,7 @@
     {
       "name": "Celebrate Recovery",
       "url": "https://celebraterecovery.com/",
-      "category": "recovery",
+      "category": "drop-in",
       "format": "in-person",
       "regions": [
         "us-nationwide"
@@ -2420,7 +2420,7 @@
     {
       "name": "CFC Brotherhood of Christian Businessmen and Professionals (BCBP)",
       "url": "https://couplesforchrist.com.ph",
-      "category": "faith",
+      "category": "faith-community",
       "format": "in-person",
       "regions": [
         "philippines-nationwide",
@@ -2453,7 +2453,7 @@
     {
       "name": "CFK Africa (Carolina for Kibera)",
       "url": "https://cfkafrica.org",
-      "category": "rites",
+      "category": "rites-boys",
       "format": "in-person",
       "regions": [
         "kenya-nationwide"
@@ -2484,7 +2484,7 @@
     {
       "name": "Chabad-Lubavitch (Local Centers)",
       "url": "https://www.chabad.org/centers",
-      "category": "faith",
+      "category": "faith-community",
       "format": "in-person",
       "regions": [
         "us-nationwide"
@@ -2513,7 +2513,7 @@
     {
       "name": "Christian Motorcyclists Association UK",
       "url": "https://bike.org.uk",
-      "category": "faith",
+      "category": "faith-community",
       "format": "in-person",
       "regions": [
         "uk-nationwide"
@@ -2541,7 +2541,7 @@
     {
       "name": "Christian Motorcyclists Association (CMA)",
       "url": "https://cmausa.org",
-      "category": "faith",
+      "category": "faith-community",
       "format": "in-person",
       "regions": [
         "us-nationwide"
@@ -2570,7 +2570,7 @@
     {
       "name": "Christian Reformed Church Men's Ministry",
       "url": "https://www.crcna.org",
-      "category": "faith",
+      "category": "faith-community",
       "format": "in-person",
       "regions": [
         "us-multiple"
@@ -2598,7 +2598,7 @@
     {
       "name": "Christian Service Brigade (CSB)",
       "url": "https://csbministries.org",
-      "category": "rites",
+      "category": "rites-boys",
       "format": "in-person",
       "regions": [
         "canada-nationwide",
@@ -2630,7 +2630,7 @@
     {
       "name": "Christian Surfers United States",
       "url": "https://csunitedstates.org",
-      "category": "outdoor",
+      "category": "outdoor-fitness",
       "format": "in-person",
       "regions": [
         "us-multiple"
@@ -2659,7 +2659,7 @@
     {
       "name": "Christian Vision for Men (CVM)",
       "url": "https://www.cvm.org.uk",
-      "category": "faith",
+      "category": "faith-community",
       "format": "hybrid",
       "regions": [
         "uk-nationwide"
@@ -2716,7 +2716,7 @@
     {
       "name": "Civil Air Patrol (CAP)",
       "url": "https://www.gocivilairpatrol.com",
-      "category": "rites",
+      "category": "rites-boys",
       "format": "in-person",
       "regions": [
         "us-nationwide"
@@ -2747,7 +2747,7 @@
     {
       "name": "Christian Methodist Episcopal (CME) Men",
       "url": "https://thecmechurch.org/",
-      "category": "faith",
+      "category": "faith-community",
       "format": "in-person",
       "regions": [
         "us-nationwide"
@@ -2777,7 +2777,7 @@
     {
       "name": "Cocaine Anonymous",
       "url": "https://ca.org",
-      "category": "recovery",
+      "category": "drop-in",
       "format": "hybrid",
       "regions": [
         "us-nationwide",
@@ -2807,7 +2807,7 @@
     {
       "name": "Codependents Anonymous (CoDA)",
       "url": "https://coda.org",
-      "category": "recovery",
+      "category": "drop-in",
       "format": "hybrid",
       "regions": [
         "us-nationwide",
@@ -2837,7 +2837,7 @@
     {
       "name": "COGIC Department of Men",
       "url": "https://www.cogic.org",
-      "category": "faith",
+      "category": "faith-community",
       "format": "in-person",
       "regions": [
         "us-nationwide"
@@ -2869,7 +2869,7 @@
     {
       "name": "Combat Stress",
       "url": "https://combatstress.org.uk/",
-      "category": "therapy",
+      "category": "therapy-clinical",
       "format": "hybrid",
       "regions": [
         "uk-nationwide"
@@ -2960,7 +2960,7 @@
     {
       "name": "Conquer Series",
       "url": "https://conquerseries.com",
-      "category": "recovery",
+      "category": "therapy-clinical",
       "format": "hybrid",
       "regions": [
         "us-nationwide"
@@ -2989,7 +2989,7 @@
     {
       "name": "Christian Reformed Church Canada",
       "url": "https://www.crcna.org",
-      "category": "faith",
+      "category": "faith-community",
       "format": "in-person",
       "regions": [
         "canada-nationwide"
@@ -3019,7 +3019,7 @@
     {
       "name": "Crystal Meth Anonymous (CMA)",
       "url": "https://www.crystalmeth.org/",
-      "category": "recovery",
+      "category": "drop-in",
       "format": "hybrid",
       "regions": [
         "us-nationwide",
@@ -3050,7 +3050,7 @@
     {
       "name": "Cursillo Movement Canada (Mouvement des Cursillos du Canada)",
       "url": "https://www.cursillocanada.ca",
-      "category": "faith",
+      "category": "faith-community",
       "format": "in-person",
       "regions": [
         "canada-nationwide"
@@ -3081,7 +3081,7 @@
     {
       "name": "Cursillos de Cristiandad (Cursillo Movement)",
       "url": "https://cursillousa.org/",
-      "category": "faith",
+      "category": "faith-community",
       "format": "in-person",
       "regions": [
         "us-nationwide"
@@ -3201,7 +3201,7 @@
     {
       "name": "DeMolay International",
       "url": "https://beademolay.org/",
-      "category": "rites",
+      "category": "rites-boys",
       "format": "in-person",
       "regions": [
         "us-nationwide"
@@ -3231,7 +3231,7 @@
     {
       "name": "Disabled American Veterans (DAV)",
       "url": "https://www.dav.org",
-      "category": "civic",
+      "category": "civic-fraternal",
       "format": "hybrid",
       "regions": [
         "us-nationwide",
@@ -3262,7 +3262,7 @@
     {
       "name": "Disciples of Christ Men's Ministry",
       "url": "https://disciples.org",
-      "category": "faith",
+      "category": "faith-community",
       "format": "in-person",
       "regions": [
         "us-nationwide"
@@ -3290,7 +3290,7 @@
     {
       "name": "Ducks Unlimited Canada",
       "url": "https://www.ducks.ca",
-      "category": "outdoor",
+      "category": "outdoor-fitness",
       "format": "in-person",
       "regions": [
         "canada-nationwide"
@@ -3320,7 +3320,7 @@
     {
       "name": "Ducks Unlimited (DU)",
       "url": "https://www.ducks.org",
-      "category": "outdoor",
+      "category": "outdoor-fitness",
       "format": "in-person",
       "regions": [
         "us-nationwide"
@@ -3349,7 +3349,7 @@
     {
       "name": "Eastern Orthodox Parish Men's Groups",
       "url": "https://www.assemblyofbishops.org/",
-      "category": "faith",
+      "category": "faith-community",
       "format": "in-person",
       "regions": [
         "us-nationwide"
@@ -3381,7 +3381,7 @@
     {
       "name": "Eastern Orthodox Parishes Canada",
       "url": "https://www.assemblyofbishops.org/",
-      "category": "faith",
+      "category": "faith-community",
       "format": "in-person",
       "regions": [
         "canada-nationwide"
@@ -3410,7 +3410,7 @@
     {
       "name": "Easton Mountain",
       "url": "https://www.eastonmountain.org/",
-      "category": "mens-work",
+      "category": "curriculum-retreat",
       "format": "in-person",
       "regions": [
         "us-NY"
@@ -3441,7 +3441,7 @@
     {
       "name": "Edgewood Treatment Centre",
       "url": "https://www.edgewoodhealthnetwork.com",
-      "category": "recovery",
+      "category": "therapy-clinical",
       "format": "in-person",
       "regions": [
         "ca-BC"
@@ -3473,7 +3473,7 @@
     {
       "name": "Evangelical Lutheran Church in Canada (ELCIC) Men",
       "url": "https://elcic.ca",
-      "category": "faith",
+      "category": "faith-community",
       "format": "in-person",
       "regions": [
         "canada-nationwide"
@@ -3501,7 +3501,7 @@
     {
       "name": "Esalen Institute",
       "url": "https://www.esalen.org",
-      "category": "therapy",
+      "category": "therapy-clinical",
       "format": "in-person",
       "regions": [
         "us-CA"
@@ -3531,7 +3531,7 @@
     {
       "name": "Evryman",
       "url": "https://www.evryman.com",
-      "category": "mens-work",
+      "category": "curriculum-retreat",
       "format": "hybrid",
       "regions": [
         "us-nationwide",
@@ -3558,7 +3558,7 @@
     {
       "name": "F3 Canada",
       "url": "https://f3nation.com",
-      "category": "outdoor",
+      "category": "outdoor-fitness",
       "format": "in-person",
       "regions": [
         "canada-nationwide"
@@ -3587,7 +3587,7 @@
     {
       "name": "F3 Nation",
       "url": "https://f3nation.com",
-      "category": "outdoor",
+      "category": "outdoor-fitness",
       "format": "in-person",
       "regions": [
         "us-nationwide"
@@ -3616,7 +3616,7 @@
     {
       "name": "Faithful & True Ministries",
       "url": "https://www.faithfulandtrue.com",
-      "category": "recovery",
+      "category": "therapy-clinical",
       "format": "hybrid",
       "regions": [
         "us-nationwide"
@@ -3646,7 +3646,7 @@
     {
       "name": "Father a Nation",
       "url": "https://fatheranation.co.za",
-      "category": "faith",
+      "category": "faith-community",
       "format": "hybrid",
       "regions": [
         "south-africa-nationwide"
@@ -3708,7 +3708,7 @@
     {
       "name": "Fellowship of Evangelical Baptist Churches in Canada (FEBCC)",
       "url": "https://www.fellowship.ca",
-      "category": "faith",
+      "category": "faith-community",
       "format": "in-person",
       "regions": [
         "canada-nationwide"
@@ -3737,7 +3737,7 @@
     {
       "name": "Federation of Jewish Men's Clubs",
       "url": "https://fjmc.org/",
-      "category": "faith",
+      "category": "faith-community",
       "format": "in-person",
       "regions": [
         "us-nationwide"
@@ -3767,7 +3767,7 @@
     {
       "name": "Friends General Conference Quaker Men",
       "url": "https://www.fgcquaker.org",
-      "category": "faith",
+      "category": "faith-community",
       "format": "in-person",
       "regions": [
         "us-nationwide"
@@ -3797,7 +3797,7 @@
     {
       "name": "First Nations Health Authority (FNHA, BC)",
       "url": "https://www.fnha.ca",
-      "category": "mens-work",
+      "category": "drop-in",
       "format": "in-person",
       "regions": [
         "ca-BC"
@@ -3827,7 +3827,7 @@
     {
       "name": "Fraternal Order of Eagles (FOE)",
       "url": "https://foe.com/",
-      "category": "civic",
+      "category": "civic-fraternal",
       "format": "in-person",
       "regions": [
         "us-nationwide"
@@ -3857,7 +3857,7 @@
     {
       "name": "Freemasonry (US Grand Lodges)",
       "url": "https://besomethingmore.org",
-      "category": "civic",
+      "category": "civic-fraternal",
       "format": "in-person",
       "regions": [
         "us-nationwide"
@@ -3884,7 +3884,7 @@
     {
       "name": "National FFA Organization (Future Farmers of America)",
       "url": "https://www.ffa.org",
-      "category": "rites",
+      "category": "rites-boys",
       "format": "in-person",
       "regions": [
         "us-nationwide"
@@ -3914,7 +3914,7 @@
     {
       "name": "Gamblers Anonymous",
       "url": "https://gamblersanonymous.org/",
-      "category": "recovery",
+      "category": "drop-in",
       "format": "hybrid",
       "regions": [
         "us-nationwide",
@@ -3944,7 +3944,7 @@
     {
       "name": "Gay Spirit Visions",
       "url": "https://gayspirit.org",
-      "category": "mens-work",
+      "category": "curriculum-retreat",
       "format": "in-person",
       "regions": [
         "us-GA",
@@ -3977,7 +3977,7 @@
     {
       "name": "GMHC (Gay Men's Health Crisis)",
       "url": "https://gmhc.org/",
-      "category": "therapy",
+      "category": "therapy-clinical",
       "format": "hybrid",
       "regions": [
         "us-NY",
@@ -4008,7 +4008,7 @@
     {
       "name": "GORUCK",
       "url": "https://www.goruck.com/pages/goruck-events",
-      "category": "outdoor",
+      "category": "outdoor-fitness",
       "format": "in-person",
       "regions": [
         "us-nationwide"
@@ -4038,7 +4038,7 @@
     {
       "name": "Hazelden Betty Ford Foundation",
       "url": "https://www.hazeldenbettyford.org",
-      "category": "recovery",
+      "category": "therapy-clinical",
       "format": "in-person",
       "regions": [
         "us-multiple"
@@ -4068,7 +4068,7 @@
     {
       "name": "The Healing Foundation",
       "url": "https://healingfoundation.org.au",
-      "category": "mens-work",
+      "category": "drop-in",
       "format": "hybrid",
       "regions": [
         "australia-nationwide",
@@ -4101,7 +4101,7 @@
     {
       "name": "Help for Heroes",
       "url": "https://www.helpforheroes.org.uk",
-      "category": "civic",
+      "category": "civic-fraternal",
       "format": "hybrid",
       "regions": [
         "uk-nationwide"
@@ -4131,7 +4131,7 @@
     {
       "name": "Heroin Anonymous (HA)",
       "url": "https://heroinanonymous.org",
-      "category": "recovery",
+      "category": "drop-in",
       "format": "hybrid",
       "regions": [
         "us-nationwide",
@@ -4161,7 +4161,7 @@
     {
       "name": "Holy Name Society",
       "url": "https://en.wikipedia.org/wiki/Holy_Name_Society",
-      "category": "faith",
+      "category": "faith-community",
       "format": "in-person",
       "regions": [
         "us-nationwide"
@@ -4190,7 +4190,7 @@
     {
       "name": "Holy Trinity Church Dubai Men's Fellowship",
       "url": "https://holytrinitychurchdubai.org",
-      "category": "faith",
+      "category": "faith-community",
       "format": "in-person",
       "regions": [
         "united-arab-emirates-nationwide"
@@ -4254,7 +4254,7 @@
     {
       "name": "Hsi Lai Temple / Fo Guang Shan",
       "url": "https://www.hsilai.us/",
-      "category": "faith",
+      "category": "faith-community",
       "format": "in-person",
       "regions": [
         "us-CA",
@@ -4285,7 +4285,7 @@
     {
       "name": "I Am A Kind Man / Kizhaay Anishinaabe Niin",
       "url": "https://iamakindman.ca/",
-      "category": "mens-work",
+      "category": "drop-in",
       "format": "in-person",
       "regions": [
         "ca-ON"
@@ -4317,7 +4317,7 @@
     {
       "name": "Illuman",
       "url": "https://www.illuman.org/",
-      "category": "rites",
+      "category": "rites-boys",
       "format": "hybrid",
       "regions": [
         "us-nationwide",
@@ -4349,7 +4349,7 @@
     {
       "name": "Inclusive Therapists",
       "url": "https://www.inclusivetherapists.com",
-      "category": "therapy",
+      "category": "therapy-clinical",
       "format": "hybrid",
       "regions": [
         "us-nationwide",
@@ -4379,7 +4379,7 @@
     {
       "name": "Independent Order of Odd Fellows (IOOF)",
       "url": "https://odd-fellows.org/",
-      "category": "civic",
+      "category": "civic-fraternal",
       "format": "in-person",
       "regions": [
         "us-nationwide"
@@ -4466,7 +4466,7 @@
     {
       "name": "Insight Meditation Society (IMS)",
       "url": "https://www.dharma.org",
-      "category": "faith",
+      "category": "faith-community",
       "format": "in-person",
       "regions": [
         "us-MA"
@@ -4498,7 +4498,7 @@
     {
       "name": "Iraq and Afghanistan Veterans of America (IAVA)",
       "url": "https://iava.org",
-      "category": "civic",
+      "category": "civic-fraternal",
       "format": "hybrid",
       "regions": [
         "us-nationwide",
@@ -4529,7 +4529,7 @@
     {
       "name": "Iron Sharpens Iron Conferences",
       "url": "https://ironsharpensiron.net/",
-      "category": "faith",
+      "category": "faith-community",
       "format": "in-person",
       "regions": [
         "us-nationwide"
@@ -4557,7 +4557,7 @@
     {
       "name": "ISKCON (Hare Krishna)",
       "url": "https://iskcon.org/",
-      "category": "faith",
+      "category": "faith-community",
       "format": "in-person",
       "regions": [
         "us-multiple"
@@ -4588,7 +4588,7 @@
     {
       "name": "Islamic Society of North America (ISNA)",
       "url": "https://isna.net/",
-      "category": "faith",
+      "category": "faith-community",
       "format": "in-person",
       "regions": [
         "us-nationwide"
@@ -4618,7 +4618,7 @@
     {
       "name": "Junior Chamber International USA (JCI USA)",
       "url": "https://www.jciusa.org",
-      "category": "civic",
+      "category": "civic-fraternal",
       "format": "in-person",
       "regions": [
         "us-nationwide"
@@ -4677,7 +4677,7 @@
     {
       "name": "Kingdom Men (Tony Evans / Urban Alternative)",
       "url": "https://tonyevans.org/kingdom-men",
-      "category": "faith",
+      "category": "faith-community",
       "format": "hybrid",
       "regions": [
         "us-nationwide",
@@ -4708,7 +4708,7 @@
     {
       "name": "Kiwanis International",
       "url": "https://www.kiwanis.org",
-      "category": "civic",
+      "category": "civic-fraternal",
       "format": "in-person",
       "regions": [
         "us-nationwide"
@@ -4738,7 +4738,7 @@
     {
       "name": "Knights of Columbus Canada",
       "url": "https://www.kofc.org",
-      "category": "faith",
+      "category": "faith-community",
       "format": "in-person",
       "regions": [
         "canada-nationwide"
@@ -4769,7 +4769,7 @@
     {
       "name": "Knights of Columbus",
       "url": "https://www.kofc.org",
-      "category": "faith",
+      "category": "faith-community",
       "format": "in-person",
       "regions": [
         "us-nationwide"
@@ -4797,7 +4797,7 @@
     {
       "name": "Knights of Da Gama",
       "url": "https://knightsofdagama.org",
-      "category": "faith",
+      "category": "faith-community",
       "format": "in-person",
       "regions": [
         "south-africa-nationwide"
@@ -4828,7 +4828,7 @@
     {
       "name": "Knights of Lithuania",
       "url": "https://www.knightsoflithuania.com",
-      "category": "civic",
+      "category": "civic-fraternal",
       "format": "in-person",
       "regions": [
         "us-multiple"
@@ -4857,7 +4857,7 @@
     {
       "name": "Knights of Peter Claver",
       "url": "https://www.kofpc.org",
-      "category": "faith",
+      "category": "faith-community",
       "format": "in-person",
       "regions": [
         "us-nationwide"
@@ -4888,7 +4888,7 @@
     {
       "name": "Knights of Pythias",
       "url": "https://www.pythias.org",
-      "category": "civic",
+      "category": "civic-fraternal",
       "format": "in-person",
       "regions": [
         "us-nationwide"
@@ -4917,7 +4917,7 @@
     {
       "name": "Knights of St Columba (Scotland)",
       "url": "https://www.knightsofstcolumba.org",
-      "category": "faith",
+      "category": "faith-community",
       "format": "in-person",
       "regions": [
         "gb-scotland"
@@ -4946,7 +4946,7 @@
     {
       "name": "Knights of St Columbanus",
       "url": "https://www.knightsofstcolumbanus.ie/",
-      "category": "faith",
+      "category": "faith-community",
       "format": "in-person",
       "regions": [
         "ireland-nationwide",
@@ -4977,7 +4977,7 @@
     {
       "name": "Knights of St. John (Catholic)",
       "url": "https://www.kofsj.org",
-      "category": "civic",
+      "category": "civic-fraternal",
       "format": "in-person",
       "regions": [
         "us-multiple"
@@ -5007,7 +5007,7 @@
     {
       "name": "Knights of the Southern Cross",
       "url": "https://kscaustralia.org.au",
-      "category": "faith",
+      "category": "faith-community",
       "format": "in-person",
       "regions": [
         "australia-nationwide"
@@ -5038,7 +5038,7 @@
     {
       "name": "Last Door Recovery Society",
       "url": "https://lastdoor.org",
-      "category": "recovery",
+      "category": "therapy-clinical",
       "format": "in-person",
       "regions": [
         "ca-BC"
@@ -5071,7 +5071,7 @@
     {
       "name": "LDS Elders Quorum (Local Ward)",
       "url": "https://www.churchofjesuschrist.org/maps",
-      "category": "faith",
+      "category": "faith-community",
       "format": "in-person",
       "regions": [
         "us-nationwide"
@@ -5101,7 +5101,7 @@
     {
       "name": "Lifeline Aotearoa",
       "url": "https://www.lifeline.org.nz",
-      "category": "therapy",
+      "category": "therapy-clinical",
       "format": "virtual",
       "regions": [
         "new-zealand-nationwide",
@@ -5131,7 +5131,7 @@
     {
       "name": "Lifeline Australia",
       "url": "https://www.lifeline.org.au",
-      "category": "therapy",
+      "category": "therapy-clinical",
       "format": "virtual",
       "regions": [
         "australia-nationwide",
@@ -5162,7 +5162,7 @@
     {
       "name": "Lions Clubs International",
       "url": "https://www.lionsclubs.org/en",
-      "category": "civic",
+      "category": "civic-fraternal",
       "format": "in-person",
       "regions": [
         "us-nationwide"
@@ -5191,7 +5191,7 @@
     {
       "name": "Local Gurdwara Sangat (Sikh)",
       "url": "https://www.sikhcoalition.org",
-      "category": "faith",
+      "category": "faith-community",
       "format": "in-person",
       "regions": [
         "us-nationwide"
@@ -5221,7 +5221,7 @@
     {
       "name": "Loyal Order of Moose",
       "url": "https://www.mooseintl.org",
-      "category": "civic",
+      "category": "civic-fraternal",
       "format": "in-person",
       "regions": [
         "us-nationwide"
@@ -5251,7 +5251,7 @@
     {
       "name": "Lutheran Church Canada (LCC) Men's Ministry",
       "url": "https://www.lutheranchurchcanada.ca",
-      "category": "faith",
+      "category": "faith-community",
       "format": "in-person",
       "regions": [
         "canada-nationwide"
@@ -5280,7 +5280,7 @@
     {
       "name": "Lutheran Hour Ministries / Int'l Lutheran Laymen's League",
       "url": "https://www.lhm.org",
-      "category": "faith",
+      "category": "faith-community",
       "format": "hybrid",
       "regions": [
         "us-nationwide",
@@ -5311,7 +5311,7 @@
     {
       "name": "Lutheran Men in Mission",
       "url": "https://www.lutheranmeninmission.org",
-      "category": "faith",
+      "category": "faith-community",
       "format": "in-person",
       "regions": [
         "us-nationwide"
@@ -5341,7 +5341,7 @@
     {
       "name": "Manitoba M\u00e9tis Federation Men's Programming",
       "url": "https://www.mmf.mb.ca",
-      "category": "mens-work",
+      "category": "drop-in",
       "format": "in-person",
       "regions": [
         "ca-MB"
@@ -5372,7 +5372,7 @@
     {
       "name": "ManKind Project Australia (MKP Australia)",
       "url": "https://www.mankindproject.org.au/",
-      "category": "mens-work",
+      "category": "drop-in",
       "format": "hybrid",
       "regions": [
         "australia-nationwide"
@@ -5403,7 +5403,7 @@
     {
       "name": "ManKind Project Canada",
       "url": "https://mankindproject.org",
-      "category": "mens-work",
+      "category": "drop-in",
       "format": "hybrid",
       "regions": [
         "canada-nationwide"
@@ -5433,7 +5433,7 @@
     {
       "name": "ManKind Project New Zealand",
       "url": "https://www.mkp.org.nz/",
-      "category": "mens-work",
+      "category": "drop-in",
       "format": "hybrid",
       "regions": [
         "new-zealand-nationwide"
@@ -5464,7 +5464,7 @@
     {
       "name": "ManKind Project UK & Ireland (MKP UK&I)",
       "url": "https://mankindprojectuki.org/",
-      "category": "mens-work",
+      "category": "drop-in",
       "format": "hybrid",
       "regions": [
         "uk-nationwide",
@@ -5496,7 +5496,7 @@
     {
       "name": "ManKind Project USA",
       "url": "https://mkpusa.org/",
-      "category": "mens-work",
+      "category": "drop-in",
       "format": "hybrid",
       "regions": [
         "us-nationwide"
@@ -5525,7 +5525,7 @@
     {
       "name": "Marijuana Anonymous (MA)",
       "url": "https://marijuana-anonymous.org",
-      "category": "recovery",
+      "category": "drop-in",
       "format": "hybrid",
       "regions": [
         "us-nationwide",
@@ -5553,7 +5553,7 @@
     {
       "name": "Marine Corps League",
       "url": "https://www.mcleaguelibrary.org/",
-      "category": "civic",
+      "category": "civic-fraternal",
       "format": "in-person",
       "regions": [
         "us-nationwide"
@@ -5583,7 +5583,7 @@
     {
       "name": "MATES in Construction New Zealand",
       "url": "https://mates.net.nz",
-      "category": "mens-work",
+      "category": "drop-in",
       "format": "in-person",
       "regions": [
         "new-zealand-nationwide"
@@ -5614,7 +5614,7 @@
     {
       "name": "MATES in Construction",
       "url": "https://mates.org.au",
-      "category": "mens-work",
+      "category": "drop-in",
       "format": "in-person",
       "regions": [
         "australia-nationwide"
@@ -5646,7 +5646,7 @@
     {
       "name": "Men Against Violence and Abuse (MAVA)",
       "url": "https://mavaindia.org",
-      "category": "mens-work",
+      "category": "drop-in",
       "format": "hybrid",
       "regions": [
         "india-nationwide",
@@ -5679,7 +5679,7 @@
     {
       "name": "MEN & Healing",
       "url": "https://menandhealing.ca/",
-      "category": "therapy",
+      "category": "therapy-clinical",
       "format": "in-person",
       "regions": [
         "ca-ON"
@@ -5710,7 +5710,7 @@
     {
       "name": "Men of Reform Judaism",
       "url": "https://www.menrj.org",
-      "category": "faith",
+      "category": "faith-community",
       "format": "in-person",
       "regions": [
         "us-nationwide"
@@ -5739,7 +5739,7 @@
     {
       "name": "MenEngage Africa",
       "url": "https://menengageafrica.org",
-      "category": "mens-work",
+      "category": "drop-in",
       "format": "hybrid",
       "regions": [
         "south-africa-nationwide",
@@ -5770,7 +5770,7 @@
     {
       "name": "MenEngage Nigeria",
       "url": "https://menengage.org",
-      "category": "mens-work",
+      "category": "drop-in",
       "format": "hybrid",
       "regions": [
         "nigeria-nationwide",
@@ -5801,7 +5801,7 @@
     {
       "name": "Canadian Conference of Mennonite Brethren Churches",
       "url": "https://mbchurches.ca",
-      "category": "faith",
+      "category": "faith-community",
       "format": "in-person",
       "regions": [
         "canada-nationwide"
@@ -5831,7 +5831,7 @@
     {
       "name": "Mennonite Church Canada Men",
       "url": "https://www.mennonitechurch.ca",
-      "category": "faith",
+      "category": "faith-community",
       "format": "in-person",
       "regions": [
         "canada-nationwide"
@@ -5861,7 +5861,7 @@
     {
       "name": "Mennonite Men",
       "url": "https://mennonitemen.org",
-      "category": "faith",
+      "category": "faith-community",
       "format": "in-person",
       "regions": [
         "us-multiple"
@@ -5891,7 +5891,7 @@
     {
       "name": "Men's Health Network",
       "url": "https://menshealthnetwork.org/",
-      "category": "mens-work",
+      "category": "drop-in",
       "format": "virtual",
       "regions": [
         "us-nationwide",
@@ -5920,7 +5920,7 @@
     {
       "name": "Men's Sheds Ireland",
       "url": "https://menssheds.ie",
-      "category": "mens-work",
+      "category": "drop-in",
       "format": "in-person",
       "regions": [
         "ireland-nationwide"
@@ -5951,7 +5951,7 @@
     {
       "name": "MensLine Australia",
       "url": "https://mensline.org.au",
-      "category": "therapy",
+      "category": "therapy-clinical",
       "format": "virtual",
       "regions": [
         "australia-nationwide",
@@ -5983,7 +5983,7 @@
     {
       "name": "MenzShed New Zealand",
       "url": "https://menzshed.org.nz",
-      "category": "mens-work",
+      "category": "drop-in",
       "format": "in-person",
       "regions": [
         "new-zealand-nationwide"
@@ -6014,7 +6014,7 @@
     {
       "name": "Methodist Church in Malaysia Men's Fellowship",
       "url": "https://methodistchurch.org.my",
-      "category": "faith",
+      "category": "faith-community",
       "format": "in-person",
       "regions": [
         "malaysia-nationwide"
@@ -6045,7 +6045,7 @@
     {
       "name": "Methodist Church in Singapore Men's Ministry",
       "url": "https://www.methodist.org.sg/",
-      "category": "faith",
+      "category": "faith-community",
       "format": "in-person",
       "regions": [
         "singapore-nationwide"
@@ -6076,7 +6076,7 @@
     {
       "name": "Methodist Church of Great Britain Men's",
       "url": "https://www.methodist.org.uk",
-      "category": "faith",
+      "category": "faith-community",
       "format": "in-person",
       "regions": [
         "uk-nationwide"
@@ -6105,7 +6105,7 @@
     {
       "name": "Methodist Men's Fellowship Ghana",
       "url": "https://methodistchurch.org.gh",
-      "category": "faith",
+      "category": "faith-community",
       "format": "in-person",
       "regions": [
         "ghana-nationwide"
@@ -6136,7 +6136,7 @@
     {
       "name": "Modern Elder Academy",
       "url": "https://www.meawisdom.com/",
-      "category": "mens-work",
+      "category": "curriculum-retreat",
       "format": "in-person",
       "regions": [
         "us-multiple"
@@ -6167,7 +6167,7 @@
     {
       "name": "Movember Australia",
       "url": "https://au.movember.com",
-      "category": "mens-work",
+      "category": "curriculum-retreat",
       "format": "hybrid",
       "regions": [
         "australia-nationwide",
@@ -6199,7 +6199,7 @@
     {
       "name": "Movember Canada",
       "url": "https://ca.movember.com",
-      "category": "mens-work",
+      "category": "curriculum-retreat",
       "format": "hybrid",
       "regions": [
         "canada-nationwide",
@@ -6230,7 +6230,7 @@
     {
       "name": "Movember Foundation",
       "url": "https://us.movember.com",
-      "category": "mens-work",
+      "category": "curriculum-retreat",
       "format": "hybrid",
       "regions": [
         "us-nationwide",
@@ -6262,7 +6262,7 @@
     {
       "name": "Movember New Zealand",
       "url": "https://nz.movember.com",
-      "category": "mens-work",
+      "category": "curriculum-retreat",
       "format": "hybrid",
       "regions": [
         "new-zealand-nationwide",
@@ -6294,7 +6294,7 @@
     {
       "name": "Movember South Africa",
       "url": "https://za.movember.com",
-      "category": "mens-work",
+      "category": "curriculum-retreat",
       "format": "hybrid",
       "regions": [
         "south-africa-nationwide",
@@ -6326,7 +6326,7 @@
     {
       "name": "Movember UK",
       "url": "https://uk.movember.com",
-      "category": "mens-work",
+      "category": "curriculum-retreat",
       "format": "hybrid",
       "regions": [
         "uk-nationwide",
@@ -6357,7 +6357,7 @@
     {
       "name": "Muslim American Society (MAS)",
       "url": "https://www.masnet.org",
-      "category": "faith",
+      "category": "faith-community",
       "format": "in-person",
       "regions": [
         "us-nationwide"
@@ -6418,7 +6418,7 @@
     {
       "name": "Naqshbandi Sufi Order (Naqshbandi-Haqqani branch and others)",
       "url": "https://naqshbandi.org",
-      "category": "faith",
+      "category": "faith-community",
       "format": "in-person",
       "regions": [
         "us-multiple",
@@ -6452,7 +6452,7 @@
     {
       "name": "Narcotics Anonymous",
       "url": "https://na.org/",
-      "category": "recovery",
+      "category": "drop-in",
       "format": "hybrid",
       "regions": [
         "us-nationwide",
@@ -6484,7 +6484,7 @@
     {
       "name": "Naropa University",
       "url": "https://www.naropa.edu",
-      "category": "therapy",
+      "category": "therapy-clinical",
       "format": "in-person",
       "regions": [
         "us-CO"
@@ -6514,7 +6514,7 @@
     {
       "name": "National Association of Friendship Centres (NAFC)",
       "url": "https://nafc.ca",
-      "category": "mens-work",
+      "category": "drop-in",
       "format": "in-person",
       "regions": [
         "canada-nationwide"
@@ -6577,7 +6577,7 @@
     {
       "name": "National Eagle Scout Association (NESA)",
       "url": "https://www.nesa.org",
-      "category": "civic",
+      "category": "civic-fraternal",
       "format": "hybrid",
       "regions": [
         "us-nationwide",
@@ -6635,7 +6635,7 @@
     {
       "name": "National Wild Turkey Federation (NWTF)",
       "url": "https://www.nwtf.org",
-      "category": "outdoor",
+      "category": "outdoor-fitness",
       "format": "in-person",
       "regions": [
         "us-nationwide"
@@ -6664,7 +6664,7 @@
     {
       "name": "Native Brotherhood of British Columbia",
       "url": "https://www.nbbc.ca",
-      "category": "civic",
+      "category": "civic-fraternal",
       "format": "in-person",
       "regions": [
         "ca-BC"
@@ -6694,7 +6694,7 @@
     {
       "name": "Naval Sea Cadet Corps",
       "url": "https://www.seacadets.org",
-      "category": "rites",
+      "category": "rites-boys",
       "format": "in-person",
       "regions": [
         "us-nationwide"
@@ -6724,7 +6724,7 @@
     {
       "name": "National Baptist Convention USA Brotherhood",
       "url": "https://nationalbaptist.com/",
-      "category": "faith",
+      "category": "faith-community",
       "format": "in-person",
       "regions": [
         "us-nationwide"
@@ -6755,7 +6755,7 @@
     {
       "name": "New Orleans Mardi Gras Krewes",
       "url": "https://www.mardigrasneworleans.com",
-      "category": "civic",
+      "category": "civic-fraternal",
       "format": "in-person",
       "regions": [
         "us-LA"
@@ -6786,7 +6786,7 @@
     {
       "name": "NOLS (National Outdoor Leadership School)",
       "url": "https://www.nols.edu",
-      "category": "rites",
+      "category": "rites-boys",
       "format": "in-person",
       "regions": [
         "us-multiple"
@@ -6817,7 +6817,7 @@
     {
       "name": "Notre Dame Alumni Association",
       "url": "https://alumni.nd.edu/",
-      "category": "civic",
+      "category": "civic-fraternal",
       "format": "hybrid",
       "regions": [
         "us-nationwide",
@@ -6848,7 +6848,7 @@
     {
       "name": "Onsite Workshops",
       "url": "https://experienceonsite.com/",
-      "category": "therapy",
+      "category": "therapy-clinical",
       "format": "in-person",
       "regions": [
         "us-TN"
@@ -6877,7 +6877,7 @@
     {
       "name": "Open Path Psychotherapy Collective",
       "url": "https://openpathcollective.org",
-      "category": "therapy",
+      "category": "therapy-clinical",
       "format": "hybrid",
       "regions": [
         "us-nationwide",
@@ -6906,7 +6906,7 @@
     {
       "name": "Operation Surf",
       "url": "https://operationsurf.org/",
-      "category": "outdoor",
+      "category": "outdoor-fitness",
       "format": "in-person",
       "regions": [
         "us-CA",
@@ -6937,7 +6937,7 @@
     {
       "name": "Optimist International",
       "url": "https://www.optimist.org",
-      "category": "civic",
+      "category": "civic-fraternal",
       "format": "in-person",
       "regions": [
         "us-nationwide"
@@ -6966,7 +6966,7 @@
     {
       "name": "Order of Malta Ireland",
       "url": "https://orderofmaltaireland.org/",
-      "category": "civic",
+      "category": "civic-fraternal",
       "format": "in-person",
       "regions": [
         "ireland-nationwide"
@@ -6997,7 +6997,7 @@
     {
       "name": "Order of Man",
       "url": "https://orderofman.com/",
-      "category": "mens-work",
+      "category": "curriculum-retreat",
       "format": "hybrid",
       "regions": [
         "us-nationwide",
@@ -7029,7 +7029,7 @@
     {
       "name": "Order of Saint Andrew the Apostle (Archons of the Ecumenical Patriarchate)",
       "url": "https://archons.org",
-      "category": "faith",
+      "category": "faith-community",
       "format": "in-person",
       "regions": [
         "us-nationwide"
@@ -7061,7 +7061,7 @@
     {
       "name": "The Order of St. Ignatius of Antioch",
       "url": "https://orderofstignatius.org",
-      "category": "faith",
+      "category": "faith-community",
       "format": "in-person",
       "regions": [
         "us-nationwide"
@@ -7091,7 +7091,7 @@
     {
       "name": "Order Sons of Italy of Canada",
       "url": "https://www.osicanada.com",
-      "category": "civic",
+      "category": "civic-fraternal",
       "format": "in-person",
       "regions": [
         "canada-nationwide"
@@ -7120,7 +7120,7 @@
     {
       "name": "Orthodox Union (OU)",
       "url": "https://www.ou.org",
-      "category": "faith",
+      "category": "faith-community",
       "format": "in-person",
       "regions": [
         "us-nationwide"
@@ -7151,7 +7151,7 @@
     {
       "name": "Outward Bound Canada",
       "url": "https://www.outwardbound.ca",
-      "category": "rites",
+      "category": "rites-boys",
       "format": "in-person",
       "regions": [
         "canada-nationwide"
@@ -7181,7 +7181,7 @@
     {
       "name": "Outward Bound USA",
       "url": "https://www.outwardbound.org",
-      "category": "rites",
+      "category": "rites-boys",
       "format": "in-person",
       "regions": [
         "us-multiple"
@@ -7212,7 +7212,7 @@
     {
       "name": "Overeaters Anonymous (OA)",
       "url": "https://oa.org",
-      "category": "recovery",
+      "category": "drop-in",
       "format": "hybrid",
       "regions": [
         "us-nationwide",
@@ -7242,7 +7242,7 @@
     {
       "name": "Pentecostal Assemblies of Canada (PAOC) Men's Ministry",
       "url": "https://paoc.org",
-      "category": "faith",
+      "category": "faith-community",
       "format": "in-person",
       "regions": [
         "canada-nationwide"
@@ -7272,7 +7272,7 @@
     {
       "name": "Patriot Guard Riders",
       "url": "https://patriotguard.org/",
-      "category": "civic",
+      "category": "civic-fraternal",
       "format": "in-person",
       "regions": [
         "us-nationwide"
@@ -7301,7 +7301,7 @@
     {
       "name": "Pheasants Forever / Quail Forever",
       "url": "https://www.pheasantsforever.org",
-      "category": "outdoor",
+      "category": "outdoor-fitness",
       "format": "in-person",
       "regions": [
         "us-multiple"
@@ -7331,7 +7331,7 @@
     {
       "name": "Pioneer Total Abstinence Association (PTAA)",
       "url": "https://www.pioneers.ie/",
-      "category": "recovery",
+      "category": "therapy-clinical",
       "format": "in-person",
       "regions": [
         "ireland-nationwide",
@@ -7364,7 +7364,7 @@
     {
       "name": "Plum Village US Sangha (Thich Nhat Hanh tradition)",
       "url": "https://plumvillage.org",
-      "category": "faith",
+      "category": "faith-community",
       "format": "hybrid",
       "regions": [
         "us-multiple"
@@ -7395,7 +7395,7 @@
     {
       "name": "Progressive National Baptist Convention Brotherhood",
       "url": "https://pnbc.org/",
-      "category": "faith",
+      "category": "faith-community",
       "format": "in-person",
       "regions": [
         "us-nationwide"
@@ -7425,7 +7425,7 @@
     {
       "name": "Polish Falcons of America",
       "url": "https://www.polishfalcons.org",
-      "category": "civic",
+      "category": "civic-fraternal",
       "format": "in-person",
       "regions": [
         "us-multiple"
@@ -7457,7 +7457,7 @@
     {
       "name": "Presbyterian Men (PCUSA)",
       "url": "https://pcusa.org/",
-      "category": "faith",
+      "category": "faith-community",
       "format": "in-person",
       "regions": [
         "us-nationwide"
@@ -7516,7 +7516,7 @@
     {
       "name": "Project Healing Waters Fly Fishing",
       "url": "https://projecthealingwaters.org/",
-      "category": "outdoor",
+      "category": "outdoor-fitness",
       "format": "in-person",
       "regions": [
         "us-nationwide"
@@ -7546,7 +7546,7 @@
     {
       "name": "Promise Keepers",
       "url": "https://promisekeepers.org",
-      "category": "faith",
+      "category": "faith-community",
       "format": "hybrid",
       "regions": [
         "us-nationwide",
@@ -7575,7 +7575,7 @@
     {
       "name": "Psychology Today Therapist Directory",
       "url": "https://www.psychologytoday.com/us/therapists",
-      "category": "therapy",
+      "category": "therapy-clinical",
       "format": "hybrid",
       "regions": [
         "us-nationwide",
@@ -7604,7 +7604,7 @@
     {
       "name": "Pure Desire Ministries",
       "url": "https://puredesire.org",
-      "category": "recovery",
+      "category": "therapy-clinical",
       "format": "hybrid",
       "regions": [
         "us-nationwide"
@@ -7634,7 +7634,7 @@
     {
       "name": "Radical Faeries",
       "url": "https://www.radfae.org/",
-      "category": "mens-work",
+      "category": "curriculum-retreat",
       "format": "in-person",
       "regions": [
         "us-nationwide",
@@ -7666,7 +7666,7 @@
     {
       "name": "RCCG Men's Fellowship",
       "url": "https://www.rccg.org/",
-      "category": "faith",
+      "category": "faith-community",
       "format": "in-person",
       "regions": [
         "nigeria-nationwide",
@@ -7698,7 +7698,7 @@
     {
       "name": "RCMP Veterans' Association",
       "url": "https://rcmpva.org",
-      "category": "civic",
+      "category": "civic-fraternal",
       "format": "in-person",
       "regions": [
         "canada-nationwide"
@@ -7727,7 +7727,7 @@
     {
       "name": "REBOOT Recovery",
       "url": "https://rebootrecovery.com/",
-      "category": "recovery",
+      "category": "drop-in",
       "format": "hybrid",
       "regions": [
         "us-nationwide",
@@ -7759,7 +7759,7 @@
     {
       "name": "Recovery Dharma",
       "url": "https://recoverydharma.org",
-      "category": "recovery",
+      "category": "drop-in",
       "format": "hybrid",
       "regions": [
         "us-nationwide",
@@ -7791,7 +7791,7 @@
     {
       "name": "Refuge Recovery",
       "url": "https://www.refugerecovery.org/",
-      "category": "recovery",
+      "category": "drop-in",
       "format": "hybrid",
       "regions": [
         "us-nationwide",
@@ -7822,7 +7822,7 @@
     {
       "name": "Renascent Foundation",
       "url": "https://renascent.ca",
-      "category": "recovery",
+      "category": "therapy-clinical",
       "format": "in-person",
       "regions": [
         "ca-ON"
@@ -7853,7 +7853,7 @@
     {
       "name": "R\u00e9seau Hommes Qu\u00e9bec (RHQ)",
       "url": "https://reseauhommesquebec.com",
-      "category": "mens-work",
+      "category": "curriculum-retreat",
       "format": "in-person",
       "regions": [
         "ca-QC"
@@ -7884,7 +7884,7 @@
     {
       "name": "Rocky Mountain Elk Foundation (RMEF)",
       "url": "https://www.rmef.org",
-      "category": "outdoor",
+      "category": "outdoor-fitness",
       "format": "in-person",
       "regions": [
         "us-nationwide"
@@ -7914,7 +7914,7 @@
     {
       "name": "Rotary International",
       "url": "https://www.rotary.org/en",
-      "category": "civic",
+      "category": "civic-fraternal",
       "format": "in-person",
       "regions": [
         "us-nationwide"
@@ -7944,7 +7944,7 @@
     {
       "name": "Round Table (Great Britain & Ireland)",
       "url": "https://www.roundtable.co.uk",
-      "category": "civic",
+      "category": "civic-fraternal",
       "format": "in-person",
       "regions": [
         "uk-nationwide",
@@ -7975,7 +7975,7 @@
     {
       "name": "Royal Antediluvian Order of Buffaloes (RAOB)",
       "url": "https://www.raob-gle.org.uk",
-      "category": "civic",
+      "category": "civic-fraternal",
       "format": "in-person",
       "regions": [
         "uk-nationwide"
@@ -8004,7 +8004,7 @@
     {
       "name": "Royal British Legion (RBL)",
       "url": "https://www.britishlegion.org.uk",
-      "category": "civic",
+      "category": "civic-fraternal",
       "format": "in-person",
       "regions": [
         "uk-nationwide"
@@ -8034,7 +8034,7 @@
     {
       "name": "Royal Canadian Legion (RCL)",
       "url": "https://legion.ca",
-      "category": "civic",
+      "category": "civic-fraternal",
       "format": "in-person",
       "regions": [
         "canada-nationwide"
@@ -8064,7 +8064,7 @@
     {
       "name": "Royal Rangers",
       "url": "https://royalrangers.com",
-      "category": "rites",
+      "category": "rites-boys",
       "format": "in-person",
       "regions": [
         "us-nationwide"
@@ -8094,7 +8094,7 @@
     {
       "name": "Returned and Services League of Australia (RSL)",
       "url": "https://www.rslaustralia.org/",
-      "category": "civic",
+      "category": "civic-fraternal",
       "format": "in-person",
       "regions": [
         "australia-nationwide"
@@ -8125,7 +8125,7 @@
     {
       "name": "Sacred Sons",
       "url": "https://www.sacredsons.com/",
-      "category": "mens-work",
+      "category": "curriculum-retreat",
       "format": "hybrid",
       "regions": [
         "us-nationwide",
@@ -8154,7 +8154,7 @@
     {
       "name": "SAGE (Services and Advocacy for GLBT Elders)",
       "url": "https://www.sageusa.org",
-      "category": "civic",
+      "category": "civic-fraternal",
       "format": "hybrid",
       "regions": [
         "us-nationwide",
@@ -8312,7 +8312,7 @@
     {
       "name": "Samaritans",
       "url": "https://www.samaritans.org",
-      "category": "mens-work",
+      "category": "drop-in",
       "format": "virtual",
       "regions": [
         "uk-nationwide",
@@ -8342,7 +8342,7 @@
     {
       "name": "San Francisco Zen Center",
       "url": "https://www.sfzc.org",
-      "category": "faith",
+      "category": "faith-community",
       "format": "in-person",
       "regions": [
         "us-CA"
@@ -8374,7 +8374,7 @@
     {
       "name": "The Scout Association (UK)",
       "url": "https://www.scouts.org.uk",
-      "category": "rites",
+      "category": "rites-boys",
       "format": "in-person",
       "regions": [
         "uk-nationwide"
@@ -8405,7 +8405,7 @@
     {
       "name": "Scouting Ireland",
       "url": "https://www.scouts.ie",
-      "category": "rites",
+      "category": "rites-boys",
       "format": "in-person",
       "regions": [
         "ireland-nationwide",
@@ -8437,7 +8437,7 @@
     {
       "name": "Scouts Canada",
       "url": "https://www.scouts.ca",
-      "category": "rites",
+      "category": "rites-boys",
       "format": "in-person",
       "regions": [
         "canada-nationwide"
@@ -8468,7 +8468,7 @@
     {
       "name": "Sea Cadets UK",
       "url": "https://www.sea-cadets.org",
-      "category": "rites",
+      "category": "rites-boys",
       "format": "in-person",
       "regions": [
         "uk-nationwide"
@@ -8498,7 +8498,7 @@
     {
       "name": "Sea Scouts BSA",
       "url": "https://seascout.org",
-      "category": "rites",
+      "category": "rites-boys",
       "format": "in-person",
       "regions": [
         "us-nationwide"
@@ -8528,7 +8528,7 @@
     {
       "name": "Self-Realization Fellowship (SRF)",
       "url": "https://yogananda.org/",
-      "category": "faith",
+      "category": "faith-community",
       "format": "in-person",
       "regions": [
         "us-multiple"
@@ -8558,7 +8558,7 @@
     {
       "name": "Sertoma International",
       "url": "https://www.sertoma.org/",
-      "category": "civic",
+      "category": "civic-fraternal",
       "format": "in-person",
       "regions": [
         "us-nationwide"
@@ -8587,7 +8587,7 @@
     {
       "name": "Sex Addicts Anonymous",
       "url": "https://saa-recovery.org",
-      "category": "recovery",
+      "category": "drop-in",
       "format": "hybrid",
       "regions": [
         "us-nationwide",
@@ -8616,7 +8616,7 @@
     {
       "name": "Sex and Love Addicts Anonymous (SLAA)",
       "url": "https://slaafws.org",
-      "category": "recovery",
+      "category": "drop-in",
       "format": "hybrid",
       "regions": [
         "us-nationwide",
@@ -8646,7 +8646,7 @@
     {
       "name": "Sexaholics Anonymous (SA)",
       "url": "https://www.sa.org/",
-      "category": "recovery",
+      "category": "drop-in",
       "format": "hybrid",
       "regions": [
         "us-nationwide",
@@ -8677,7 +8677,7 @@
     {
       "name": "Soka Gakkai International USA (SGI-USA) Men's Division",
       "url": "https://www.sgi-usa.org",
-      "category": "faith",
+      "category": "faith-community",
       "format": "in-person",
       "regions": [
         "us-nationwide"
@@ -8708,7 +8708,7 @@
     {
       "name": "Sikh Gurdwaras of Canada",
       "url": "https://www.worldsikh.org",
-      "category": "faith",
+      "category": "faith-community",
       "format": "in-person",
       "regions": [
         "canada-nationwide"
@@ -8738,7 +8738,7 @@
     {
       "name": "Singles for Christ (SFC)",
       "url": "https://singlesforchrist.com",
-      "category": "faith",
+      "category": "faith-community",
       "format": "in-person",
       "regions": [
         "philippines-nationwide",
@@ -8772,7 +8772,7 @@
     {
       "name": "Slovak Catholic Sokol",
       "url": "https://www.slovakcatholicsokol.org",
-      "category": "civic",
+      "category": "civic-fraternal",
       "format": "in-person",
       "regions": [
         "us-multiple"
@@ -8803,7 +8803,7 @@
     {
       "name": "SMART Recovery",
       "url": "https://smartrecovery.org/",
-      "category": "recovery",
+      "category": "drop-in",
       "format": "hybrid",
       "regions": [
         "us-nationwide",
@@ -8833,7 +8833,7 @@
     {
       "name": "Soci\u00e9t\u00e9 Saint-Jean-Baptiste (SSJB)",
       "url": "https://ssjb.com",
-      "category": "civic",
+      "category": "civic-fraternal",
       "format": "in-person",
       "regions": [
         "ca-QC"
@@ -8863,7 +8863,7 @@
     {
       "name": "Sokol USA",
       "url": "https://sokolusa.org",
-      "category": "civic",
+      "category": "civic-fraternal",
       "format": "in-person",
       "regions": [
         "us-multiple"
@@ -8894,7 +8894,7 @@
     {
       "name": "Sonke Gender Justice",
       "url": "https://genderjustice.org.za",
-      "category": "mens-work",
+      "category": "drop-in",
       "format": "hybrid",
       "regions": [
         "south-africa-nationwide",
@@ -8926,7 +8926,7 @@
     {
       "name": "Order Sons and Daughters of Italy in America (OSDIA)",
       "url": "https://www.osia.org",
-      "category": "civic",
+      "category": "civic-fraternal",
       "format": "in-person",
       "regions": [
         "us-nationwide"
@@ -8957,7 +8957,7 @@
     {
       "name": "Sons of Norway",
       "url": "https://www.sofn.com",
-      "category": "civic",
+      "category": "civic-fraternal",
       "format": "in-person",
       "regions": [
         "us-nationwide"
@@ -8987,7 +8987,7 @@
     {
       "name": "Sons of the American Revolution (SAR)",
       "url": "https://www.sar.org",
-      "category": "civic",
+      "category": "civic-fraternal",
       "format": "in-person",
       "regions": [
         "us-nationwide"
@@ -9016,7 +9016,7 @@
     {
       "name": "Sons of the Revolution (SR)",
       "url": "https://sr1776.org/",
-      "category": "civic",
+      "category": "civic-fraternal",
       "format": "in-person",
       "regions": [
         "us-nationwide"
@@ -9044,7 +9044,7 @@
     {
       "name": "Spirit Rock Meditation Center",
       "url": "https://www.spiritrock.org",
-      "category": "faith",
+      "category": "faith-community",
       "format": "hybrid",
       "regions": [
         "us-CA"
@@ -9075,7 +9075,7 @@
     {
       "name": "SSAFA (Soldiers, Sailors, Airmen and Families Association)",
       "url": "https://www.ssafa.org.uk",
-      "category": "civic",
+      "category": "civic-fraternal",
       "format": "hybrid",
       "regions": [
         "uk-nationwide"
@@ -9135,7 +9135,7 @@
     {
       "name": "St Mary's Catholic Church Dubai Men's Ministry",
       "url": "https://stmarysdubai.org",
-      "category": "faith",
+      "category": "faith-community",
       "format": "in-person",
       "regions": [
         "united-arab-emirates-nationwide"
@@ -9166,7 +9166,7 @@
     {
       "name": "Sterling Men's Weekend",
       "url": "https://www.sterlingmensdivision.com",
-      "category": "mens-work",
+      "category": "curriculum-retreat",
       "format": "in-person",
       "regions": [
         "us-multiple"
@@ -9196,7 +9196,7 @@
     {
       "name": "Sunshine Coast Health Centre",
       "url": "https://sunshinecoasthealthcentre.ca",
-      "category": "recovery",
+      "category": "therapy-clinical",
       "format": "in-person",
       "regions": [
         "ca-BC"
@@ -9226,7 +9226,7 @@
     {
       "name": "Tablighi Jamaat",
       "url": "https://en.wikipedia.org/wiki/Tablighi_Jamaat",
-      "category": "faith",
+      "category": "faith-community",
       "format": "in-person",
       "regions": [
         "us-multiple",
@@ -9260,7 +9260,7 @@
     {
       "name": "Team Rubicon",
       "url": "https://teamrubiconusa.org",
-      "category": "civic",
+      "category": "civic-fraternal",
       "format": "in-person",
       "regions": [
         "us-nationwide"
@@ -9290,7 +9290,7 @@
     {
       "name": "The American Legion",
       "url": "https://www.legion.org",
-      "category": "civic",
+      "category": "civic-fraternal",
       "format": "in-person",
       "regions": [
         "us-nationwide"
@@ -9351,7 +9351,7 @@
     {
       "name": "The Bridge to Recovery",
       "url": "https://www.thebridgetorecovery.com/",
-      "category": "recovery",
+      "category": "therapy-clinical",
       "format": "in-person",
       "regions": [
         "us-KY"
@@ -9382,7 +9382,7 @@
     {
       "name": "The Center for Group Studies",
       "url": "https://www.centerforgroupstudies.com",
-      "category": "therapy",
+      "category": "therapy-clinical",
       "format": "in-person",
       "regions": [
         "us-NY"
@@ -9411,7 +9411,7 @@
     {
       "name": "The Character Company",
       "url": "https://www.thecharactercompany.co.za/",
-      "category": "rites",
+      "category": "rites-boys",
       "format": "in-person",
       "regions": [
         "south-africa-nationwide"
@@ -9503,7 +9503,7 @@
     {
       "name": "The Hoffman Institute",
       "url": "https://www.hoffmaninstitute.org",
-      "category": "therapy",
+      "category": "therapy-clinical",
       "format": "in-person",
       "regions": [
         "us-nationwide"
@@ -9533,7 +9533,7 @@
     {
       "name": "The Junto Institute",
       "url": "https://www.thejuntoinstitute.com/",
-      "category": "mens-work",
+      "category": "curriculum-retreat",
       "format": "hybrid",
       "regions": [
         "us-IL",
@@ -9595,7 +9595,7 @@
     {
       "name": "The Man Cave",
       "url": "https://themancave.life",
-      "category": "rites",
+      "category": "rites-boys",
       "format": "in-person",
       "regions": [
         "australia-nationwide"
@@ -9626,7 +9626,7 @@
     {
       "name": "The Meadows",
       "url": "https://www.themeadows.com",
-      "category": "recovery",
+      "category": "therapy-clinical",
       "format": "in-person",
       "regions": [
         "us-AZ"
@@ -9657,7 +9657,7 @@
     {
       "name": "The Men's Project (Jesuit Social Services)",
       "url": "https://jss.org.au/programs/the-mens-project/",
-      "category": "mens-work",
+      "category": "curriculum-retreat",
       "format": "hybrid",
       "regions": [
         "australia-nationwide"
@@ -9687,7 +9687,7 @@
     {
       "name": "The Mission Continues",
       "url": "https://www.missioncontinues.org",
-      "category": "civic",
+      "category": "civic-fraternal",
       "format": "in-person",
       "regions": [
         "us-nationwide"
@@ -9716,7 +9716,7 @@
     {
       "name": "The Mosque Cares (Imam W. Deen Mohammed Community)",
       "url": "https://www.themosquecares.com",
-      "category": "faith",
+      "category": "faith-community",
       "format": "in-person",
       "regions": [
         "us-nationwide"
@@ -9747,7 +9747,7 @@
     {
       "name": "The Mountaineers",
       "url": "https://www.mountaineers.org",
-      "category": "outdoor",
+      "category": "outdoor-fitness",
       "format": "in-person",
       "regions": [
         "us-WA"
@@ -9779,7 +9779,7 @@
     {
       "name": "The Mussar Institute",
       "url": "https://www.mussarinstitute.org/",
-      "category": "faith",
+      "category": "faith-community",
       "format": "hybrid",
       "regions": [
         "us-nationwide",
@@ -9811,7 +9811,7 @@
     {
       "name": "The Phoenix",
       "url": "https://thephoenix.org",
-      "category": "recovery",
+      "category": "drop-in",
       "format": "in-person",
       "regions": [
         "us-nationwide"
@@ -9844,7 +9844,7 @@
     {
       "name": "The Stoic Fellowship",
       "url": "https://stoicfellowship.com",
-      "category": "mens-work",
+      "category": "drop-in",
       "format": "hybrid",
       "regions": [
         "us-nationwide",
@@ -9875,7 +9875,7 @@
     {
       "name": "The Strenuous Life (Jocko Willink)",
       "url": "https://thestrenuouslife.co",
-      "category": "mens-work",
+      "category": "curriculum-retreat",
       "format": "hybrid",
       "regions": [
         "us-nationwide",
@@ -9907,7 +9907,7 @@
     {
       "name": "Together We Can (Vancouver)",
       "url": "https://togetherwecan.ca",
-      "category": "recovery",
+      "category": "therapy-clinical",
       "format": "in-person",
       "regions": [
         "ca-BC"
@@ -9940,7 +9940,7 @@
     {
       "name": "Tomorrow Man",
       "url": "https://www.tomorrowman.com.au/",
-      "category": "mens-work",
+      "category": "curriculum-retreat",
       "format": "in-person",
       "regions": [
         "australia-nationwide"
@@ -9971,7 +9971,7 @@
     {
       "name": "Top Blokes Foundation",
       "url": "https://www.topblokes.org.au/",
-      "category": "rites",
+      "category": "rites-boys",
       "format": "in-person",
       "regions": [
         "australia-nationwide"
@@ -10002,7 +10002,7 @@
     {
       "name": "Trail Life USA",
       "url": "https://www.traillifeusa.com",
-      "category": "rites",
+      "category": "rites-boys",
       "format": "in-person",
       "regions": [
         "us-nationwide"
@@ -10033,7 +10033,7 @@
     {
       "name": "Trout Unlimited Canada",
       "url": "https://www.tucanada.org",
-      "category": "outdoor",
+      "category": "outdoor-fitness",
       "format": "in-person",
       "regions": [
         "canada-nationwide"
@@ -10063,7 +10063,7 @@
     {
       "name": "Trout Unlimited",
       "url": "https://www.tu.org",
-      "category": "outdoor",
+      "category": "outdoor-fitness",
       "format": "in-person",
       "regions": [
         "us-nationwide"
@@ -10093,7 +10093,7 @@
     {
       "name": "Tungasuvvingat Inuit (TI)",
       "url": "https://tungasuvvingatinuit.ca",
-      "category": "mens-work",
+      "category": "drop-in",
       "format": "in-person",
       "regions": [
         "ca-ON"
@@ -10125,7 +10125,7 @@
     {
       "name": "United Church of Christ Men (UCC Men)",
       "url": "https://uccmen.org",
-      "category": "faith",
+      "category": "faith-community",
       "format": "in-person",
       "regions": [
         "us-nationwide"
@@ -10154,7 +10154,7 @@
     {
       "name": "UK Men's Sheds Association",
       "url": "https://menssheds.org.uk",
-      "category": "mens-work",
+      "category": "drop-in",
       "format": "in-person",
       "regions": [
         "uk-nationwide"
@@ -10184,7 +10184,7 @@
     {
       "name": "United Church of Canada Men's Network",
       "url": "https://united-church.ca",
-      "category": "faith",
+      "category": "faith-community",
       "format": "in-person",
       "regions": [
         "canada-nationwide"
@@ -10213,7 +10213,7 @@
     {
       "name": "United Grand Lodge of England (Freemasonry, England + Wales)",
       "url": "https://www.ugle.org.uk",
-      "category": "civic",
+      "category": "civic-fraternal",
       "format": "in-person",
       "regions": [
         "gb-england",
@@ -10242,7 +10242,7 @@
     {
       "name": "United Methodist Men",
       "url": "https://ummen.org/",
-      "category": "faith",
+      "category": "faith-community",
       "format": "in-person",
       "regions": [
         "us-nationwide"
@@ -10272,7 +10272,7 @@
     {
       "name": "Unitarian Universalist Men's Network (UUMeN)",
       "url": "https://uumensnetwork.org",
-      "category": "faith",
+      "category": "faith-community",
       "format": "in-person",
       "regions": [
         "us-nationwide"
@@ -10300,7 +10300,7 @@
     {
       "name": "Vedanta Society",
       "url": "https://vedanta.org/",
-      "category": "faith",
+      "category": "faith-community",
       "format": "in-person",
       "regions": [
         "us-multiple"
@@ -10329,7 +10329,7 @@
     {
       "name": "Veterans Expeditions",
       "url": "https://www.vetexpeditions.com",
-      "category": "outdoor",
+      "category": "outdoor-fitness",
       "format": "in-person",
       "regions": [
         "us-multiple"
@@ -10358,7 +10358,7 @@
     {
       "name": "Veterans of Foreign Wars",
       "url": "https://www.vfw.org",
-      "category": "civic",
+      "category": "civic-fraternal",
       "format": "in-person",
       "regions": [
         "us-nationwide"
@@ -10388,7 +10388,7 @@
     {
       "name": "Vineyard USA Men's Ministry",
       "url": "https://vineyardusa.org",
-      "category": "faith",
+      "category": "faith-community",
       "format": "in-person",
       "regions": [
         "us-nationwide"
@@ -10418,7 +10418,7 @@
     {
       "name": "Vishva Hindu Parishad of America (VHPA)",
       "url": "https://www.vhpamerica.org/",
-      "category": "faith",
+      "category": "faith-community",
       "format": "in-person",
       "regions": [
         "us-nationwide"
@@ -10479,7 +10479,7 @@
     {
       "name": "Wabano Centre for Aboriginal Health",
       "url": "https://wabano.com",
-      "category": "mens-work",
+      "category": "drop-in",
       "format": "in-person",
       "regions": [
         "ca-ON"
@@ -10511,7 +10511,7 @@
     {
       "name": "White Bison / Wellbriety Movement",
       "url": "https://whitebison.org/",
-      "category": "recovery",
+      "category": "drop-in",
       "format": "hybrid",
       "regions": [
         "us-nationwide",
@@ -10545,7 +10545,7 @@
     {
       "name": "Wild at Heart Boot Camps",
       "url": "https://wildatheart.org",
-      "category": "faith",
+      "category": "faith-community",
       "format": "in-person",
       "regions": [
         "us-nationwide"
@@ -10576,7 +10576,7 @@
     {
       "name": "Wounded Warrior Project",
       "url": "https://www.woundedwarriorproject.org",
-      "category": "civic",
+      "category": "civic-fraternal",
       "format": "hybrid",
       "regions": [
         "us-nationwide",
@@ -10608,7 +10608,7 @@
     {
       "name": "Yale Senior Societies",
       "url": "https://www.yale.edu",
-      "category": "civic",
+      "category": "civic-fraternal",
       "format": "in-person",
       "regions": [
         "us-CT"
@@ -10638,7 +10638,7 @@
     {
       "name": "Yiriman Project",
       "url": "https://kalacc.org/projects/yiriman-project/",
-      "category": "rites",
+      "category": "rites-boys",
       "format": "in-person",
       "regions": [
         "australia-nationwide"
@@ -10670,7 +10670,7 @@
     {
       "name": "YMCA Adventure Guides",
       "url": "https://www.ymca.org",
-      "category": "rites",
+      "category": "rites-boys",
       "format": "in-person",
       "regions": [
         "us-nationwide"
