@@ -1,11 +1,11 @@
 {
-  "generated_at": "2026-05-08",
+  "generated_at": "2026-05-10",
   "schema_version": "1.2",
   "entry_count": 351,
   "entries": [
     {
       "name": "100 Black Men of America",
-      "url": "https://www.100blackmen.org",
+      "url": "https://100blackmen.org/",
       "category": "civic",
       "format": "in-person",
       "regions": [
@@ -253,7 +253,7 @@
     },
     {
       "name": "Alcoholics Anonymous India",
-      "url": "https://aagsoindia.org",
+      "url": "https://www.aagsoindia.org/",
       "category": "recovery",
       "format": "hybrid",
       "regions": [
@@ -285,7 +285,7 @@
     },
     {
       "name": "Alcoholics Anonymous Jamaica",
-      "url": "https://aajamaica.org",
+      "url": "https://www.aajamaica.org/",
       "category": "recovery",
       "format": "hybrid",
       "regions": [
@@ -502,7 +502,7 @@
     },
     {
       "name": "Alcoholics Anonymous Trinidad and Tobago",
-      "url": "https://aatt.org",
+      "url": "https://www.aatt.org/",
       "category": "recovery",
       "format": "hybrid",
       "regions": [
@@ -655,7 +655,7 @@
     },
     {
       "name": "AHEPA (American Hellenic Educational Progressive Association)",
-      "url": "https://www.ahepa.org",
+      "url": "https://ahepa.org/",
       "category": "civic",
       "format": "in-person",
       "regions": [
@@ -745,7 +745,7 @@
     },
     {
       "name": "All Pro Dad",
-      "url": "https://www.allprodad.com",
+      "url": "https://allprodad.com/",
       "category": "fatherhood",
       "format": "in-person",
       "regions": [
@@ -775,7 +775,7 @@
     },
     {
       "name": "Alpine Club of Canada (ACC)",
-      "url": "https://www.alpineclubofcanada.ca",
+      "url": "https://alpineclubofcanada.ca/",
       "category": "outdoor",
       "format": "in-person",
       "regions": [
@@ -838,7 +838,7 @@
     },
     {
       "name": "AME Zion Men's Ministry",
-      "url": "https://www.amezion.org",
+      "url": "https://amezion.org/",
       "category": "faith",
       "format": "in-person",
       "regions": [
@@ -900,7 +900,7 @@
     },
     {
       "name": "American Group Psychotherapy Association",
-      "url": "https://www.agpa.org",
+      "url": "https://agpa.org/",
       "category": "therapy",
       "format": "in-person",
       "regions": [
@@ -987,7 +987,7 @@
     },
     {
       "name": "Ancient Order of Hibernians (AOH)",
-      "url": "https://www.aoh.com",
+      "url": "https://aoh.com/",
       "category": "civic",
       "format": "in-person",
       "regions": [
@@ -1109,7 +1109,7 @@
     },
     {
       "name": "Anglican Men's Fellowship \u2014 Anglican Church of Kenya (ACK)",
-      "url": "https://ackenya.org",
+      "url": "https://www.ackenya.org/",
       "category": "faith",
       "format": "in-person",
       "regions": [
@@ -1264,7 +1264,7 @@
     },
     {
       "name": "Authentic Manhood / Men's Fraternity",
-      "url": "https://authenticmanhood.com",
+      "url": "https://www.authenticmanhood.com/",
       "category": "faith",
       "format": "hybrid",
       "regions": [
@@ -1417,7 +1417,7 @@
     },
     {
       "name": "Bellwood Health Services",
-      "url": "https://www.bellwood.ca",
+      "url": "https://www.edgewoodhealthnetwork.com/locations/bellwood/",
       "category": "recovery",
       "format": "in-person",
       "regions": [
@@ -1538,7 +1538,7 @@
     },
     {
       "name": "Big Buddy Mentoring",
-      "url": "https://bigbuddy.org.nz",
+      "url": "https://www.bigbuddy.org.nz/",
       "category": "rites",
       "format": "in-person",
       "regions": [
@@ -2326,7 +2326,7 @@
     },
     {
       "name": "Celebrate Recovery",
-      "url": "https://www.celebraterecovery.com",
+      "url": "https://celebraterecovery.com/",
       "category": "recovery",
       "format": "in-person",
       "regions": [
@@ -2688,7 +2688,7 @@
     },
     {
       "name": "City Dads Group",
-      "url": "https://citydadsgroup.com",
+      "url": "https://dadssupportingdads.org/",
       "category": "fatherhood",
       "format": "in-person",
       "regions": [
@@ -2746,7 +2746,7 @@
     },
     {
       "name": "Christian Methodist Episcopal (CME) Men",
-      "url": "https://www.thecmechurch.org",
+      "url": "https://thecmechurch.org/",
       "category": "faith",
       "format": "in-person",
       "regions": [
@@ -2868,7 +2868,7 @@
     },
     {
       "name": "Combat Stress",
-      "url": "https://www.combatstress.org.uk",
+      "url": "https://combatstress.org.uk/",
       "category": "therapy",
       "format": "hybrid",
       "regions": [
@@ -2929,7 +2929,7 @@
     },
     {
       "name": "Concerned Black Men National (CBM)",
-      "url": "https://www.cbmnational.org",
+      "url": "https://cbmnational.org/",
       "category": "fatherhood",
       "format": "in-person",
       "regions": [
@@ -3018,7 +3018,7 @@
     },
     {
       "name": "Crystal Meth Anonymous (CMA)",
-      "url": "https://crystalmeth.org",
+      "url": "https://www.crystalmeth.org/",
       "category": "recovery",
       "format": "hybrid",
       "regions": [
@@ -3080,7 +3080,7 @@
     },
     {
       "name": "Cursillos de Cristiandad (Cursillo Movement)",
-      "url": "https://www.natl-cursillo.org",
+      "url": "https://cursillousa.org/",
       "category": "faith",
       "format": "in-person",
       "regions": [
@@ -3200,7 +3200,7 @@
     },
     {
       "name": "DeMolay International",
-      "url": "https://demolay.org",
+      "url": "https://beademolay.org/",
       "category": "rites",
       "format": "in-person",
       "regions": [
@@ -3348,7 +3348,7 @@
     },
     {
       "name": "Eastern Orthodox Parish Men's Groups",
-      "url": "https://assemblyofbishops.org",
+      "url": "https://www.assemblyofbishops.org/",
       "category": "faith",
       "format": "in-person",
       "regions": [
@@ -3380,7 +3380,7 @@
     },
     {
       "name": "Eastern Orthodox Parishes Canada",
-      "url": "https://assemblyofbishops.org",
+      "url": "https://www.assemblyofbishops.org/",
       "category": "faith",
       "format": "in-person",
       "regions": [
@@ -3409,7 +3409,7 @@
     },
     {
       "name": "Easton Mountain",
-      "url": "https://eastonmountain.org",
+      "url": "https://www.eastonmountain.org/",
       "category": "mens-work",
       "format": "in-person",
       "regions": [
@@ -3736,7 +3736,7 @@
     },
     {
       "name": "Federation of Jewish Men's Clubs",
-      "url": "https://www.fjmc.org",
+      "url": "https://fjmc.org/",
       "category": "faith",
       "format": "in-person",
       "regions": [
@@ -3826,7 +3826,7 @@
     },
     {
       "name": "Fraternal Order of Eagles (FOE)",
-      "url": "https://www.foe.com",
+      "url": "https://foe.com/",
       "category": "civic",
       "format": "in-person",
       "regions": [
@@ -3913,7 +3913,7 @@
     },
     {
       "name": "Gamblers Anonymous",
-      "url": "https://www.gamblersanonymous.org",
+      "url": "https://gamblersanonymous.org/",
       "category": "recovery",
       "format": "hybrid",
       "regions": [
@@ -3976,7 +3976,7 @@
     },
     {
       "name": "GMHC (Gay Men's Health Crisis)",
-      "url": "https://www.gmhc.org",
+      "url": "https://gmhc.org/",
       "category": "therapy",
       "format": "hybrid",
       "regions": [
@@ -4007,7 +4007,7 @@
     },
     {
       "name": "GORUCK",
-      "url": "https://www.goruck.com/events",
+      "url": "https://www.goruck.com/pages/goruck-events",
       "category": "outdoor",
       "format": "in-person",
       "regions": [
@@ -4284,7 +4284,7 @@
     },
     {
       "name": "I Am A Kind Man / Kizhaay Anishinaabe Niin",
-      "url": "https://www.iamakindman.ca",
+      "url": "https://iamakindman.ca/",
       "category": "mens-work",
       "format": "in-person",
       "regions": [
@@ -4316,7 +4316,7 @@
     },
     {
       "name": "Illuman",
-      "url": "https://illuman.org",
+      "url": "https://www.illuman.org/",
       "category": "rites",
       "format": "hybrid",
       "regions": [
@@ -4378,7 +4378,7 @@
     },
     {
       "name": "Independent Order of Odd Fellows (IOOF)",
-      "url": "https://www.ioof.org",
+      "url": "https://odd-fellows.org/",
       "category": "civic",
       "format": "in-person",
       "regions": [
@@ -4438,7 +4438,7 @@
     },
     {
       "name": "Inside Out Dad",
-      "url": "https://store.fatherhood.org/insideout-dad-facilitators-kit/",
+      "url": "https://store.fatherhood.org/insideout-dad-3rd-edition-facilitators-kit/",
       "category": "reentry",
       "format": "in-person",
       "regions": [
@@ -4556,7 +4556,7 @@
     },
     {
       "name": "ISKCON (Hare Krishna)",
-      "url": "https://www.iskcon.org",
+      "url": "https://iskcon.org/",
       "category": "faith",
       "format": "in-person",
       "regions": [
@@ -4587,7 +4587,7 @@
     },
     {
       "name": "Islamic Society of North America (ISNA)",
-      "url": "https://www.isna.net",
+      "url": "https://isna.net/",
       "category": "faith",
       "format": "in-person",
       "regions": [
@@ -4945,7 +4945,7 @@
     },
     {
       "name": "Knights of St Columbanus",
-      "url": "https://knightsofstcolumbanus.ie",
+      "url": "https://www.knightsofstcolumbanus.ie/",
       "category": "faith",
       "format": "in-person",
       "regions": [
@@ -5678,7 +5678,7 @@
     },
     {
       "name": "MEN & Healing",
-      "url": "https://www.menandhealing.ca",
+      "url": "https://menandhealing.ca/",
       "category": "therapy",
       "format": "in-person",
       "regions": [
@@ -5890,7 +5890,7 @@
     },
     {
       "name": "Men's Health Network",
-      "url": "https://www.menshealthnetwork.org",
+      "url": "https://menshealthnetwork.org/",
       "category": "mens-work",
       "format": "virtual",
       "regions": [
@@ -6044,7 +6044,7 @@
     },
     {
       "name": "Methodist Church in Singapore Men's Ministry",
-      "url": "https://methodist.org.sg",
+      "url": "https://www.methodist.org.sg/",
       "category": "faith",
       "format": "in-person",
       "regions": [
@@ -6135,7 +6135,7 @@
     },
     {
       "name": "Modern Elder Academy",
-      "url": "https://www.modernelderacademy.com",
+      "url": "https://www.meawisdom.com/",
       "category": "mens-work",
       "format": "in-person",
       "regions": [
@@ -6381,12 +6381,12 @@
         "mas-youth",
         "grassroots"
       ],
-      "description": "National Muslim grassroots organization founded in 1993, focused on Islamic education, youth development, and community service. Local MAS chapters and centers run men's halaqas (study circles), youth programs (MAS Youth), community service projects, and family events. More community-and-grassroots-oriented than [[ISNA]]'s umbrella structure.",
+      "description": "National Muslim grassroots organization founded in 1993, focused on Islamic education, youth development, and community service. Local MAS chapters and centers run men's halaqas (study circles), youth programs (MAS Youth), community service projects, and family events. More community-and-grassroots-oriented than [[ISNA Islamic Society of North America|ISNA]]'s umbrella structure.",
       "_filename": "Muslim American Society.md"
     },
     {
       "name": "Native American Fatherhood and Families Association (NAFFA)",
-      "url": "https://nativeamericanfathers.org",
+      "url": "https://www.nativeamericanfathers.org/",
       "category": "fatherhood",
       "format": "hybrid",
       "regions": [
@@ -6451,7 +6451,7 @@
     },
     {
       "name": "Narcotics Anonymous",
-      "url": "https://www.na.org",
+      "url": "https://na.org/",
       "category": "recovery",
       "format": "hybrid",
       "regions": [
@@ -6723,7 +6723,7 @@
     },
     {
       "name": "National Baptist Convention USA Brotherhood",
-      "url": "https://www.nationalbaptist.com",
+      "url": "https://nationalbaptist.com/",
       "category": "faith",
       "format": "in-person",
       "regions": [
@@ -6816,7 +6816,7 @@
     },
     {
       "name": "Notre Dame Alumni Association",
-      "url": "https://alumni.nd.edu",
+      "url": "https://my.nd.edu/",
       "category": "civic",
       "format": "hybrid",
       "regions": [
@@ -6847,7 +6847,7 @@
     },
     {
       "name": "Onsite Workshops",
-      "url": "https://www.onsiteworkshops.com",
+      "url": "https://experienceonsite.com/",
       "category": "therapy",
       "format": "in-person",
       "regions": [
@@ -6905,7 +6905,7 @@
     },
     {
       "name": "Operation Surf",
-      "url": "https://www.operationsurf.org",
+      "url": "https://operationsurf.org/",
       "category": "outdoor",
       "format": "in-person",
       "regions": [
@@ -6965,7 +6965,7 @@
     },
     {
       "name": "Order of Malta Ireland",
-      "url": "https://www.orderofmalta.ie",
+      "url": "https://orderofmaltaireland.org/",
       "category": "civic",
       "format": "in-person",
       "regions": [
@@ -6996,7 +6996,7 @@
     },
     {
       "name": "Order of Man",
-      "url": "https://www.orderofman.com",
+      "url": "https://orderofman.com/",
       "category": "mens-work",
       "format": "hybrid",
       "regions": [
@@ -7271,7 +7271,7 @@
     },
     {
       "name": "Patriot Guard Riders",
-      "url": "https://www.patriotguard.org",
+      "url": "https://patriotguard.org/",
       "category": "civic",
       "format": "in-person",
       "regions": [
@@ -7394,7 +7394,7 @@
     },
     {
       "name": "Progressive National Baptist Convention Brotherhood",
-      "url": "https://www.pnbc.org",
+      "url": "https://pnbc.org/",
       "category": "faith",
       "format": "in-person",
       "regions": [
@@ -7456,7 +7456,7 @@
     },
     {
       "name": "Presbyterian Men (PCUSA)",
-      "url": "https://www.pcusa.org",
+      "url": "https://pcusa.org/",
       "category": "faith",
       "format": "in-person",
       "regions": [
@@ -7515,7 +7515,7 @@
     },
     {
       "name": "Project Healing Waters Fly Fishing",
-      "url": "https://www.projecthealingwaters.org",
+      "url": "https://projecthealingwaters.org/",
       "category": "outdoor",
       "format": "in-person",
       "regions": [
@@ -7633,7 +7633,7 @@
     },
     {
       "name": "Radical Faeries",
-      "url": "https://radfae.org",
+      "url": "https://www.radfae.org/",
       "category": "mens-work",
       "format": "in-person",
       "regions": [
@@ -7665,7 +7665,7 @@
     },
     {
       "name": "RCCG Men's Fellowship",
-      "url": "https://rccg.org",
+      "url": "https://www.rccg.org/",
       "category": "faith",
       "format": "in-person",
       "regions": [
@@ -7726,7 +7726,7 @@
     },
     {
       "name": "REBOOT Recovery",
-      "url": "https://www.rebootrecovery.com",
+      "url": "https://rebootrecovery.com/",
       "category": "recovery",
       "format": "hybrid",
       "regions": [
@@ -7790,7 +7790,7 @@
     },
     {
       "name": "Refuge Recovery",
-      "url": "https://refugerecovery.org",
+      "url": "https://www.refugerecovery.org/",
       "category": "recovery",
       "format": "hybrid",
       "regions": [
@@ -7913,7 +7913,7 @@
     },
     {
       "name": "Rotary International",
-      "url": "https://www.rotary.org",
+      "url": "https://www.rotary.org/en",
       "category": "civic",
       "format": "in-person",
       "regions": [
@@ -8093,7 +8093,7 @@
     },
     {
       "name": "Returned and Services League of Australia (RSL)",
-      "url": "https://rslaustralia.org",
+      "url": "https://www.rslaustralia.org/",
       "category": "civic",
       "format": "in-person",
       "regions": [
@@ -8124,7 +8124,7 @@
     },
     {
       "name": "Sacred Sons",
-      "url": "https://sacredsons.com",
+      "url": "https://www.sacredsons.com/",
       "category": "mens-work",
       "format": "hybrid",
       "regions": [
@@ -8527,7 +8527,7 @@
     },
     {
       "name": "Self-Realization Fellowship (SRF)",
-      "url": "https://www.yogananda.org",
+      "url": "https://yogananda.org/",
       "category": "faith",
       "format": "in-person",
       "regions": [
@@ -8645,7 +8645,7 @@
     },
     {
       "name": "Sexaholics Anonymous (SA)",
-      "url": "https://sa.org",
+      "url": "https://www.sa.org/",
       "category": "recovery",
       "format": "hybrid",
       "regions": [
@@ -8802,7 +8802,7 @@
     },
     {
       "name": "SMART Recovery",
-      "url": "https://www.smartrecovery.org",
+      "url": "https://smartrecovery.org/",
       "category": "recovery",
       "format": "hybrid",
       "regions": [
@@ -9015,7 +9015,7 @@
     },
     {
       "name": "Sons of the Revolution (SR)",
-      "url": "https://www.sr1776.org",
+      "url": "https://sr1776.org/",
       "category": "civic",
       "format": "in-person",
       "regions": [
@@ -9350,7 +9350,7 @@
     },
     {
       "name": "The Bridge to Recovery",
-      "url": "https://thebridgetorecovery.com",
+      "url": "https://www.thebridgetorecovery.com/",
       "category": "recovery",
       "format": "in-person",
       "regions": [
@@ -9410,7 +9410,7 @@
     },
     {
       "name": "The Character Company",
-      "url": "https://thecharactercompany.co.za",
+      "url": "https://www.thecharactercompany.co.za/",
       "category": "rites",
       "format": "in-person",
       "regions": [
@@ -9532,7 +9532,7 @@
     },
     {
       "name": "The Junto Institute",
-      "url": "https://thejuntoinstitute.com",
+      "url": "https://www.thejuntoinstitute.com/",
       "category": "mens-work",
       "format": "hybrid",
       "regions": [
@@ -9656,7 +9656,7 @@
     },
     {
       "name": "The Men's Project (Jesuit Social Services)",
-      "url": "https://jss.org.au/programs/the-mens-project",
+      "url": "https://jss.org.au/programs/the-mens-project/",
       "category": "mens-work",
       "format": "hybrid",
       "regions": [
@@ -9778,7 +9778,7 @@
     },
     {
       "name": "The Mussar Institute",
-      "url": "https://mussarinstitute.org",
+      "url": "https://www.mussarinstitute.org/",
       "category": "faith",
       "format": "hybrid",
       "regions": [
@@ -9939,7 +9939,7 @@
     },
     {
       "name": "Tomorrow Man",
-      "url": "https://tomorrowman.com.au",
+      "url": "https://www.tomorrowman.com.au/",
       "category": "mens-work",
       "format": "in-person",
       "regions": [
@@ -9970,7 +9970,7 @@
     },
     {
       "name": "Top Blokes Foundation",
-      "url": "https://topblokes.org.au",
+      "url": "https://www.topblokes.org.au/",
       "category": "rites",
       "format": "in-person",
       "regions": [
@@ -10241,7 +10241,7 @@
     },
     {
       "name": "United Methodist Men",
-      "url": "https://gcumm.org",
+      "url": "https://ummen.org/",
       "category": "faith",
       "format": "in-person",
       "regions": [
@@ -10299,7 +10299,7 @@
     },
     {
       "name": "Vedanta Society",
-      "url": "https://www.vedanta.org",
+      "url": "https://vedanta.org/",
       "category": "faith",
       "format": "in-person",
       "regions": [
@@ -10510,7 +10510,7 @@
     },
     {
       "name": "White Bison / Wellbriety Movement",
-      "url": "https://www.whitebison.org",
+      "url": "https://whitebison.org/",
       "category": "recovery",
       "format": "hybrid",
       "regions": [
