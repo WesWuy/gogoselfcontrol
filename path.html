@@ -149,6 +149,273 @@ body.home {
 }
 .crisis-quiet:hover { color: var(--accent); border-bottom-color: var(--accent); }
 
+/* Primary CTA — the assessment journey */
+.journey-cta {
+  display: inline-flex;
+  align-items: center;
+  gap: 0.75rem;
+  margin: 0 auto 2rem;
+  padding: 0.95rem 1.5rem;
+  background: var(--accent);
+  color: var(--crisis-fg);
+  text-decoration: none;
+  border-radius: 2px;
+  font-family: var(--mono);
+  font-size: 0.85rem;
+  text-transform: uppercase;
+  letter-spacing: 0.16em;
+  font-weight: 500;
+  transition: transform 0.15s ease, box-shadow 0.15s ease, background 0.15s ease;
+  box-shadow: 0 2px 8px rgba(61, 90, 64, 0.18);
+  min-height: 48px;
+}
+.journey-cta:hover, .journey-cta:focus {
+  transform: translateY(-1px);
+  box-shadow: 0 4px 14px rgba(61, 90, 64, 0.28);
+  background: var(--fg);
+  color: var(--crisis-fg);
+  outline: none;
+}
+.journey-cta-arrow { font-family: var(--serif); font-size: 1.1rem; letter-spacing: 0; }
+.home-or {
+  font-family: var(--mono);
+  font-size: 0.7rem;
+  letter-spacing: 0.2em;
+  text-transform: uppercase;
+  color: var(--fg-mute);
+  margin: 0 0 1rem;
+  position: relative;
+}
+.home-or::before, .home-or::after {
+  content: '';
+  display: inline-block;
+  width: 2.5rem;
+  height: 1px;
+  background: var(--rule-soft);
+  vertical-align: middle;
+  margin: 0 0.75rem;
+}
+@media (max-width: 540px) {
+  .journey-cta { width: 100%; max-width: 24rem; justify-content: center; padding: 1rem 1.2rem; }
+}
+
+/* ---------- ASSESSMENT (choose-your-own-adventure wizard) ---------- */
+body.assess {
+  display: flex;
+  flex-direction: column;
+  min-height: 100vh;
+  padding: 0;
+}
+.assess-stage {
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  padding: 3rem 1.5rem 4rem;
+  max-width: 36rem;
+  margin: 0 auto;
+  width: 100%;
+}
+.assess-progress {
+  font-family: var(--mono);
+  font-size: 0.7rem;
+  letter-spacing: 0.2em;
+  text-transform: uppercase;
+  color: var(--fg-mute);
+  margin: 0 0 2.5rem;
+  text-align: center;
+}
+.assess-progress .bar {
+  display: inline-block;
+  width: 8rem;
+  height: 2px;
+  background: var(--rule-soft);
+  margin-left: 0.75rem;
+  vertical-align: middle;
+  position: relative;
+}
+.assess-progress .bar > span {
+  position: absolute;
+  top: 0; left: 0; height: 100%;
+  background: var(--accent);
+  transition: width 0.4s ease;
+}
+.assess-screen { animation: fadeIn 0.45s ease-out both; width: 100%; }
+@keyframes fadeIn {
+  from { opacity: 0; transform: translateY(8px); }
+  to   { opacity: 1; transform: translateY(0); }
+}
+.assess-scene {
+  font-family: var(--serif);
+  font-style: italic;
+  color: var(--fg-mute);
+  font-size: 1.05rem;
+  line-height: 1.55;
+  margin: 0 0 1.5rem;
+}
+.assess-scene p + p { margin-top: 0.8rem; }
+.assess-prompt {
+  font-family: var(--serif);
+  font-size: 1.55rem;
+  line-height: 1.25;
+  font-weight: 500;
+  margin: 0 0 1.75rem;
+  color: var(--fg);
+}
+.assess-options {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+  display: grid;
+  gap: 0.65rem;
+}
+.assess-options button {
+  display: block;
+  width: 100%;
+  text-align: left;
+  font-family: var(--serif);
+  font-size: 1.05rem;
+  line-height: 1.4;
+  padding: 0.95rem 1.1rem;
+  background: var(--bg-card);
+  border: 1px solid var(--rule-soft);
+  border-left: 3px solid var(--rule);
+  border-radius: 2px;
+  color: var(--fg);
+  cursor: pointer;
+  transition: border-color 0.15s ease, background 0.15s ease, transform 0.1s ease;
+}
+.assess-options button:hover, .assess-options button:focus {
+  border-left-color: var(--accent);
+  background: white;
+  outline: none;
+}
+.assess-options button:active { transform: translateY(1px); }
+.assess-echo {
+  font-family: var(--serif);
+  font-size: 1.15rem;
+  line-height: 1.55;
+  color: var(--fg-deep);
+  margin: 0 0 2rem;
+  padding-left: 1.1rem;
+  border-left: 3px solid var(--accent);
+}
+.assess-continue {
+  font-family: var(--mono);
+  font-size: 0.78rem;
+  text-transform: uppercase;
+  letter-spacing: 0.14em;
+  padding: 0.85rem 1.4rem;
+  background: var(--accent);
+  color: var(--crisis-fg);
+  border: 1px solid var(--accent);
+  cursor: pointer;
+  border-radius: 2px;
+}
+.assess-continue:hover { background: var(--fg); border-color: var(--fg); }
+.assess-back {
+  display: inline-block;
+  margin-top: 2rem;
+  font-family: var(--mono);
+  font-size: 0.72rem;
+  text-transform: uppercase;
+  letter-spacing: 0.14em;
+  color: var(--fg-mute);
+  text-decoration: none;
+  border: none;
+  background: none;
+  cursor: pointer;
+}
+.assess-back:hover { color: var(--accent); }
+.assess-intro h1 {
+  font-family: var(--serif);
+  font-size: 2.4rem;
+  font-weight: 500;
+  margin: 0 0 1.5rem;
+}
+.assess-intro p {
+  font-size: 1.1rem;
+  line-height: 1.55;
+  color: var(--fg-deep);
+  margin: 0 0 1rem;
+}
+.assess-intro .assess-continue { margin-top: 1.5rem; }
+
+/* Results */
+.assess-results h1 {
+  font-family: var(--serif);
+  font-size: 2.1rem;
+  font-weight: 500;
+  margin: 0 0 1rem;
+}
+.assess-results .synthesis {
+  font-family: var(--serif);
+  font-size: 1.15rem;
+  line-height: 1.55;
+  color: var(--fg-deep);
+  margin: 0 0 2rem;
+  font-style: italic;
+}
+.assess-results .doors-label {
+  font-family: var(--mono);
+  font-size: 0.7rem;
+  letter-spacing: 0.18em;
+  text-transform: uppercase;
+  color: var(--accent);
+  margin: 0 0 0.75rem;
+}
+.assess-results .door-bucket {
+  margin-bottom: 2.5rem;
+}
+.assess-results .door-bucket h2 {
+  font-family: var(--serif);
+  font-size: 1.4rem;
+  font-weight: 500;
+  margin: 0 0 0.4rem;
+  border: none;
+  padding: 0;
+}
+.assess-results .door-bucket .why {
+  font-family: var(--serif);
+  font-style: italic;
+  color: var(--fg-mute);
+  font-size: 1rem;
+  margin: 0 0 1rem;
+}
+.assess-results .door-bucket ul {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+  display: grid;
+  gap: 0.85rem;
+}
+.assess-results .results-foot {
+  margin-top: 2rem;
+  padding-top: 1.5rem;
+  border-top: 1px solid var(--rule-soft);
+  display: flex;
+  flex-wrap: wrap;
+  gap: 0.75rem 1.5rem;
+  font-family: var(--mono);
+  font-size: 0.78rem;
+  text-transform: uppercase;
+  letter-spacing: 0.13em;
+}
+.assess-results .results-foot a {
+  color: var(--accent);
+  text-decoration: none;
+  border-bottom: 1px dotted var(--accent);
+}
+.assess-results .results-foot a:hover { border-bottom-style: solid; }
+
+@media (max-width: 540px) {
+  .assess-stage { padding: 2rem 1.25rem 3rem; }
+  .assess-prompt { font-size: 1.3rem; }
+  .assess-intro h1 { font-size: 1.9rem; }
+  .assess-results h1 { font-size: 1.75rem; }
+}
+
 /* Crisis-block tel: links + locale priority */
 .crisis-block .tel {
   font-family: var(--mono);
@@ -568,6 +835,7 @@ footer.site-foot a:hover { color: var(--accent); border-bottom-color: var(--acce
     <a href="index.html" class="brand">gogoselfcontrol<span class="dot">.</span>org</a>
     <nav aria-label="Primary">
         <a href="index.html">Home</a>
+        <a href="assess.html">Assessment</a>
         <a href="directory.html">Directory</a>
         <a href="about.html">About</a>
         <a href="disclaimer.html">Disclaimer</a>
