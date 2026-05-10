@@ -137,44 +137,17 @@ body.home {
   font-style: italic;
   color: var(--fg-mute);
   font-size: 1.05rem;
-  margin: 0 0 2rem;
+  margin: 0 0 3.5rem;
   max-width: 28rem;
 }
 
-/* Prominent crisis CTA on home — above search */
-.crisis-now {
-  display: inline-flex;
-  align-items: center;
-  gap: 0.75rem;
-  margin: 0 auto 2.5rem;
-  padding: 0.95rem 1.4rem;
-  background: var(--crisis-bg);
-  color: var(--crisis-fg);
+/* Quiet crisis link in home footer — for the man who needs it; not a primary CTA */
+.crisis-quiet {
+  color: var(--fg-mute);
   text-decoration: none;
-  border-radius: 2px;
-  font-family: var(--mono);
-  font-size: 0.85rem;
-  text-transform: uppercase;
-  letter-spacing: 0.16em;
-  font-weight: 500;
-  transition: transform 0.15s ease, box-shadow 0.15s ease;
-  box-shadow: 0 2px 8px rgba(42, 77, 58, 0.18);
-  min-height: 48px;
+  border-bottom: 1px dotted var(--rule);
 }
-.crisis-now:hover, .crisis-now:focus {
-  transform: translateY(-1px);
-  box-shadow: 0 4px 14px rgba(42, 77, 58, 0.28);
-  color: var(--crisis-fg);
-  outline: none;
-}
-.crisis-now-arrow {
-  font-family: var(--serif);
-  font-size: 1.1rem;
-  letter-spacing: 0;
-}
-@media (max-width: 540px) {
-  .crisis-now { width: 100%; max-width: 24rem; justify-content: center; padding: 1rem 1.2rem; }
-}
+.crisis-quiet:hover { color: var(--accent); border-bottom-color: var(--accent); }
 
 /* Crisis-block tel: links + locale priority */
 .crisis-block .tel {
@@ -621,8 +594,18 @@ footer.site-foot a:hover { color: var(--accent); border-bottom-color: var(--acce
 
     <h2>Who this is for</h2>
     <p>
-      Priority: <strong>the man in crisis with nowhere obvious to go.</strong>
-      Other users — women assessing safety, facilitators, funders, men already in the work — are real and welcome, but secondary.
+      Most men are quietly lonely. Most men don't know what they need yet —
+      they just know something is missing. This site is built for them: the man
+      who's looking for his people but doesn't know where to walk in.
+    </p>
+    <p>
+      Other users — women assessing safety, facilitators, funders, men already in the work — are welcome too.
+    </p>
+    <p>
+      <strong>What we are not.</strong> We are not a crisis service, a recovery program,
+      a clinical service, or a substitute for any of those. We are a directory.
+      If you need a crisis line right now, the disclaimer page lists tap-to-dial numbers
+      for the US, Canada, UK, Ireland, Australia, and New Zealand.
     </p>
 
     <h2>Faith and tone</h2>
