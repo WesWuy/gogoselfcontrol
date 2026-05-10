@@ -1689,7 +1689,7 @@
     },
     {
       "name": "The Boys' Brigade in Singapore",
-      "url": "https://bb.org.sg",
+      "url": "https://bb.org.sg/",
       "category": "rites",
       "format": "in-person",
       "regions": [
@@ -4253,7 +4253,7 @@
     },
     {
       "name": "Hsi Lai Temple / Fo Guang Shan",
-      "url": "https://www.fgsihq.org",
+      "url": "https://www.hsilai.us/",
       "category": "faith",
       "format": "in-person",
       "regions": [
@@ -4528,7 +4528,7 @@
     },
     {
       "name": "Iron Sharpens Iron Conferences",
-      "url": "https://www.ironsharpensiron.net",
+      "url": "https://ironsharpensiron.net/",
       "category": "faith",
       "format": "in-person",
       "regions": [
@@ -5161,7 +5161,7 @@
     },
     {
       "name": "Lions Clubs International",
-      "url": "https://www.lionsclubs.org",
+      "url": "https://www.lionsclubs.org/en",
       "category": "civic",
       "format": "in-person",
       "regions": [
@@ -5371,7 +5371,7 @@
     },
     {
       "name": "ManKind Project Australia (MKP Australia)",
-      "url": "https://mkp.org.au",
+      "url": "https://www.mankindproject.org.au/",
       "category": "mens-work",
       "format": "hybrid",
       "regions": [
@@ -5432,7 +5432,7 @@
     },
     {
       "name": "ManKind Project New Zealand",
-      "url": "https://mkpnz.org",
+      "url": "https://www.mkp.org.nz/",
       "category": "mens-work",
       "format": "hybrid",
       "regions": [
@@ -5463,7 +5463,7 @@
     },
     {
       "name": "ManKind Project UK & Ireland (MKP UK&I)",
-      "url": "https://mkpuki.org",
+      "url": "https://mankindprojectuki.org/",
       "category": "mens-work",
       "format": "hybrid",
       "regions": [
@@ -5495,7 +5495,7 @@
     },
     {
       "name": "ManKind Project USA",
-      "url": "https://mankindprojectusa.org",
+      "url": "https://mkpusa.org/",
       "category": "mens-work",
       "format": "hybrid",
       "regions": [
@@ -5552,7 +5552,7 @@
     },
     {
       "name": "Marine Corps League",
-      "url": "https://www.mcleague.org",
+      "url": "https://www.mcleaguelibrary.org/",
       "category": "civic",
       "format": "in-person",
       "regions": [
@@ -6816,7 +6816,7 @@
     },
     {
       "name": "Notre Dame Alumni Association",
-      "url": "https://my.nd.edu/",
+      "url": "https://alumni.nd.edu/",
       "category": "civic",
       "format": "hybrid",
       "regions": [
@@ -7330,7 +7330,7 @@
     },
     {
       "name": "Pioneer Total Abstinence Association (PTAA)",
-      "url": "https://pioneerassociation.ie",
+      "url": "https://www.pioneers.ie/",
       "category": "recovery",
       "format": "in-person",
       "regions": [
@@ -8557,7 +8557,7 @@
     },
     {
       "name": "Sertoma International",
-      "url": "https://sertoma.org",
+      "url": "https://www.sertoma.org/",
       "category": "civic",
       "format": "in-person",
       "regions": [
@@ -10417,7 +10417,7 @@
     },
     {
       "name": "Vishva Hindu Parishad of America (VHPA)",
-      "url": "https://www.vhp-america.org",
+      "url": "https://www.vhpamerica.org/",
       "category": "faith",
       "format": "in-person",
       "regions": [
