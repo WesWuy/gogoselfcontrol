@@ -206,6 +206,28 @@ body.assess {
   min-height: 100vh;
   padding: 0;
 }
+
+/* Wireframe-head ambient presence — top-right of the assessment, drifts
+   toward the cursor. Hidden on small screens and when reduced motion is
+   preferred. The canvas is positioned fixed and pointer-events: none so it
+   never interferes with the wizard interaction. */
+.head-mount {
+  position: fixed;
+  top: 1.25rem;
+  right: 1.25rem;
+  width: 140px;
+  height: 140px;
+  pointer-events: none;
+  z-index: 1;
+  opacity: 0.6;
+}
+.head-mount canvas { display: block; }
+@media (max-width: 720px) {
+  .head-mount { display: none; }
+}
+@media (prefers-reduced-motion: reduce) {
+  .head-mount { display: none; }
+}
 .assess-stage {
   flex: 1;
   display: flex;
