@@ -1,0 +1,265 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>SPEAK Assessment — Church of Better Men</title>
+<meta name="description" content="A Church of Better Men self-reflection assessment based on the SPEAK framework: Simplify, Purify, Electrify, Amplify, and Know your why.">
+<meta property="og:title" content="What kind of man are you becoming?">
+<meta property="og:description" content="Take the Church of Better Men SPEAK assessment and receive your growth profile.">
+<meta property="og:type" content="website">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=EB+Garamond:ital,wght@0,400;0,500;0,700;1,400;1,500&family=IBM+Plex+Mono:wght@400;500;600&display=swap" rel="stylesheet">
+<style>
+:root{
+  --bg:#F2EAD3;--bg-card:#FBF6E8;--bg-soft:#EBE2C5;--fg:#2A2520;--fg-mute:#6B6256;--fg-deep:#423B30;--accent:#3D5A40;--accent-soft:#6E8A6F;--rule:#C7B98F;--rule-soft:#DDD2A8;--gold:#B88435;--serif:'EB Garamond',Garamond,'Times New Roman',Georgia,serif;--mono:'IBM Plex Mono',Menlo,Consolas,monospace;--measure:42rem;--wide:70rem;
+  --s:#B88435;--p:#8B5E34;--e:#6E8A6F;--a:#3D5A40;--k:#5D526B;
+}
+*{box-sizing:border-box}
+html{background:var(--bg);scroll-behavior:smooth}
+body{margin:0;background:radial-gradient(circle at 18% 0%,rgba(184,132,53,.16),transparent 22rem),radial-gradient(circle at 86% 10%,rgba(61,90,64,.14),transparent 24rem),var(--bg);color:var(--fg);font-family:var(--serif);font-size:1.075rem;line-height:1.56;-webkit-font-smoothing:antialiased;text-rendering:optimizeLegibility}
+a{color:var(--accent);text-underline-offset:3px}
+button,input{font:inherit}
+.site{width:min(var(--wide),calc(100% - 32px));margin:0 auto}
+.topbar{display:flex;align-items:baseline;justify-content:space-between;gap:1.25rem;padding:1.5rem 0;border-bottom:1px solid var(--rule)}
+.brand{font-size:1.35rem;color:var(--fg);text-decoration:none;font-weight:500}
+.brand .dot,.accent{color:var(--accent)}
+.nav{display:flex;gap:1.25rem;flex-wrap:wrap;font-family:var(--mono);font-size:.72rem;text-transform:uppercase;letter-spacing:.14em}
+.nav a{text-decoration:none;color:var(--fg-mute)}
+.nav a:hover{color:var(--accent)}
+.hero{display:grid;grid-template-columns:minmax(0,1.1fr) minmax(280px,.9fr);gap:3rem;align-items:center;padding:4.5rem 0 4rem}
+.kicker{font-family:var(--mono);font-size:.72rem;text-transform:uppercase;letter-spacing:.18em;color:var(--accent);margin:0 0 .85rem}
+h1,h2,h3{font-family:var(--serif);font-weight:500;line-height:1.13;margin:0;color:var(--fg)}
+h1{font-size:clamp(2.7rem,7vw,5.7rem);letter-spacing:-.035em}
+h2{font-size:clamp(2rem,4.5vw,3.3rem);letter-spacing:-.025em}
+h3{font-size:1.35rem}
+.lede{font-size:1.28rem;color:var(--fg-deep);max-width:43rem;margin:1.15rem 0 0}
+.small{font-family:var(--mono);font-size:.75rem;line-height:1.55;color:var(--fg-mute)}
+.actions{display:flex;gap:.85rem;flex-wrap:wrap;margin-top:1.7rem}
+.btn{display:inline-flex;align-items:center;justify-content:center;min-height:46px;padding:.82rem 1.2rem;border-radius:2px;border:1px solid var(--accent);font-family:var(--mono);font-size:.78rem;letter-spacing:.14em;text-transform:uppercase;text-decoration:none;font-weight:500;cursor:pointer}
+.btn.primary{background:var(--accent);color:var(--bg-card)}
+.btn.secondary{background:transparent;color:var(--accent)}
+.btn:hover{filter:brightness(.96);transform:translateY(-1px)}
+.card{background:rgba(251,246,232,.78);border:1px solid var(--rule-soft);box-shadow:0 18px 48px rgba(42,37,32,.12)}
+.wheel-card{padding:1.15rem}
+.key-stage{min-height:360px;display:grid;place-items:center;background:linear-gradient(135deg,rgba(255,255,255,.42),rgba(235,226,197,.55));border:1px solid var(--rule-soft)}
+.key{width:min(100%,390px);animation:spin 18s linear infinite;transform-origin:center}
+@keyframes spin{to{transform:rotate(360deg)}}
+.wheel-label{font-family:var(--mono);font-size:12px;font-weight:600;fill:#fff8e8;paint-order:stroke;stroke:rgba(42,37,32,.72);stroke-width:3px;stroke-linejoin:round}
+.caption{padding:1rem 0 0;color:var(--fg-mute)}
+.section{padding:4rem 0}
+.section-head{max-width:var(--measure);margin-bottom:1.4rem}
+.framework{display:grid;grid-template-columns:repeat(5,minmax(0,1fr));gap:.75rem}
+.pillar{padding:1.05rem;background:var(--bg-card);border:1px solid var(--rule-soft)}
+.pillar b{display:grid;place-items:center;width:2.2rem;height:2.2rem;margin-bottom:.7rem;background:var(--accent);color:var(--bg-card);border-radius:50%;font-family:var(--mono);font-size:.9rem}
+.pillar p{margin:.55rem 0 0;color:var(--fg-mute)}
+.assessment{padding:1.4rem}
+.questions{display:grid;gap:.95rem}
+.q{padding:1rem;background:rgba(242,234,211,.62);border:1px solid var(--rule-soft)}
+.q legend{font-size:1.12rem;font-weight:500;margin-bottom:.75rem}
+.scale{display:grid;grid-template-columns:repeat(5,minmax(0,1fr));gap:.45rem}
+.scale label{display:grid;gap:.35rem;align-items:start;min-height:86px;padding:.72rem;background:var(--bg-card);border:1px solid var(--rule-soft);cursor:pointer;color:var(--fg-mute);font-size:.93rem}
+.scale label:has(input:checked){border-color:var(--accent);background:#fff;color:var(--fg)}
+.scale input{accent-color:var(--accent)}
+.capture{display:grid;grid-template-columns:1fr 1fr;gap:.8rem;margin-top:1rem;padding:1rem;background:var(--bg-soft);border:1px solid var(--rule-soft)}
+label.field{font-family:var(--mono);font-size:.72rem;text-transform:uppercase;letter-spacing:.13em;color:var(--fg-mute)}
+input[type=text],input[type=email]{width:100%;margin-top:.4rem;min-height:44px;border:1px solid var(--rule);background:var(--bg-card);padding:.55rem .7rem;color:var(--fg)}
+.results{margin-top:1.2rem;padding:1.4rem}
+.hidden{display:none}
+.result-grid{display:grid;grid-template-columns:minmax(0,1fr) minmax(280px,.7fr);gap:1.2rem;align-items:start}
+.score-bars{display:grid;gap:.75rem;margin-top:1.2rem}
+.score-top{display:flex;justify-content:space-between;gap:1rem;font-family:var(--mono);font-size:.76rem;text-transform:uppercase;letter-spacing:.08em;color:var(--fg-mute)}
+.bar{height:10px;background:var(--rule-soft);overflow:hidden}
+.bar span{display:block;height:100%;width:var(--w);background:linear-gradient(90deg,var(--accent-soft),var(--accent))}
+#resultWheel{width:100%}
+.slice{stroke:rgba(251,246,232,.58);stroke-width:1.4;transform-origin:center;transition:opacity .4s ease,transform .4s ease}.slice.s{fill:var(--s)}.slice.p{fill:var(--p)}.slice.e{fill:var(--e)}.slice.a{fill:var(--a)}.slice.k{fill:var(--k)}
+.center-score{font-family:var(--mono);font-size:24px;font-weight:600;fill:#F2EAD3}
+.next-step{margin-top:1.2rem;padding:1rem;border-left:3px solid var(--accent);background:rgba(61,90,64,.08)}
+.footer{display:flex;justify-content:space-between;gap:1rem;flex-wrap:wrap;padding:2rem 0 3rem;border-top:1px solid var(--rule);color:var(--fg-mute)}
+.toast{position:fixed;left:50%;bottom:1.25rem;transform:translateX(-50%);background:var(--fg);color:var(--bg-card);padding:.75rem 1rem;font-family:var(--mono);font-size:.78rem;letter-spacing:.06em;z-index:10}
+.error{border-color:#8a2e24!important}
+@media(max-width:900px){.hero,.result-grid{grid-template-columns:1fr}.framework{grid-template-columns:repeat(2,minmax(0,1fr))}.key-stage{min-height:300px}}
+@media(max-width:620px){.site{width:min(100% - 20px,var(--wide))}.topbar{align-items:flex-start;flex-direction:column}.framework,.capture,.scale{grid-template-columns:1fr}.scale label{min-height:auto;grid-template-columns:auto 1fr}.section{padding:3rem 0}.hero{padding:3rem 0}.btn{width:100%}}
+@media(prefers-reduced-motion:reduce){html{scroll-behavior:auto}.key{animation:none}.btn{transition:none}}
+</style>
+</head>
+<body>
+<div class="site">
+<header class="topbar">
+<a class="brand" href="./">Go Go Self Control<span class="dot">.</span></a>
+<nav class="nav" aria-label="Main navigation">
+<a href="./">Home</a>
+<a href="#assessment">Assessment</a>
+<a href="#framework">SPEAK</a>
+</nav>
+</header>
+
+<main>
+<section class="hero">
+<div>
+<p class="kicker">Church of Better Men • SPEAK Assessment</p>
+<h1>What kind of man are you becoming?</h1>
+<p class="lede">A short self-reflection tool for men seeking brotherhood, accountability, gratitude, self-control, integrity, and purpose.</p>
+<div class="actions">
+<a class="btn primary" href="#assessment">Start the assessment</a>
+<a class="btn secondary" href="#framework">See the framework</a>
+</div>
+<p class="small" style="margin-top:1rem">This is not a clinical test. It is a mirror, a map, and a conversation starter.</p>
+</div>
+<aside class="card wheel-card" aria-label="SPEAK Wellness Wheel key preview">
+<div class="key-stage">
+<svg class="key" viewBox="0 0 360 360" role="img" aria-label="Spinning SPEAK Wellness Wheel key">
+<defs>
+<radialGradient id="glow" cx="50%" cy="50%" r="64%"><stop offset="0%" stop-color="#FBF6E8"/><stop offset="58%" stop-color="#D9C28D"/><stop offset="100%" stop-color="#B88435"/></radialGradient>
+<filter id="shadow" x="-20%" y="-20%" width="140%" height="140%"><feDropShadow dx="0" dy="12" stdDeviation="9" flood-color="#2A2520" flood-opacity=".25"/></filter>
+</defs>
+<g transform="translate(180 180)" filter="url(#shadow)">
+<path d="M0,0 L0,-142 A142,142 0 0,1 135.1,-43.9 Z" fill="#B88435"/>
+<path d="M0,0 L135.1,-43.9 A142,142 0 0,1 83.5,114.9 Z" fill="#8B5E34"/>
+<path d="M0,0 L83.5,114.9 A142,142 0 0,1 -83.5,114.9 Z" fill="#6E8A6F"/>
+<path d="M0,0 L-83.5,114.9 A142,142 0 0,1 -135.1,-43.9 Z" fill="#3D5A40"/>
+<path d="M0,0 L-135.1,-43.9 A142,142 0 0,1 0,-142 Z" fill="#5D526B"/>
+<circle r="64" fill="url(#glow)" stroke="#FBF6E8" stroke-width="4"/>
+<circle r="27" fill="#2A2520" stroke="#FBF6E8" stroke-width="4"/>
+<rect x="26" y="-11" width="132" height="22" rx="11" fill="#B88435"/>
+<rect x="134" y="-30" width="28" height="17" rx="2" fill="#B88435"/>
+<rect x="134" y="13" width="44" height="17" rx="2" fill="#B88435"/>
+<text x="0" y="-101" text-anchor="middle" class="wheel-label">Simplify</text>
+<text x="91" y="-18" text-anchor="middle" class="wheel-label">Purify</text>
+<text x="54" y="91" text-anchor="middle" class="wheel-label">Electrify</text>
+<text x="-58" y="91" text-anchor="middle" class="wheel-label">Amplify</text>
+<text x="-93" y="-18" text-anchor="middle" class="wheel-label">Know</text>
+</g>
+</svg>
+</div>
+<p class="caption"><strong>Your score becomes your key.</strong><br>Each answer strengthens or dims one SPEAK pillar.</p>
+</aside>
+</section>
+
+<section id="framework" class="section">
+<div class="section-head">
+<p class="kicker">The architecture</p>
+<h2>SPEAK turns growth into practice.</h2>
+<p class="lede">Five doors. Five disciplines. One honest next step.</p>
+</div>
+<div class="framework">
+<article class="pillar"><b>S</b><h3>Simplify</h3><p>Clear your environment so the better man has room to breathe.</p></article>
+<article class="pillar"><b>P</b><h3>Purify</h3><p>Support the body through sleep, food, movement, recovery, and restraint.</p></article>
+<article class="pillar"><b>E</b><h3>Electrify</h3><p>Train attention, reflection, prayer, meditation, and inner steadiness.</p></article>
+<article class="pillar"><b>A</b><h3>Amplify</h3><p>Devote energy to brotherhood, service, and a movement bigger than yourself.</p></article>
+<article class="pillar"><b>K</b><h3>Know</h3><p>Clarify your why, keep your word, and live by chosen values.</p></article>
+</div>
+</section>
+
+<section id="assessment" class="section">
+<div class="section-head">
+<p class="kicker">The assessment</p>
+<h2>Answer honestly. No shame. Just signal.</h2>
+<p class="lede">Choose the answer that best describes your current pattern, not the man you pretend to be.</p>
+</div>
+
+<form id="assessmentForm" class="card assessment">
+<div id="questions" class="questions"></div>
+<div class="capture">
+<label class="field">First name
+<input id="name" name="name" type="text" placeholder="Your name" autocomplete="given-name">
+</label>
+<label class="field">Email
+<input id="email" name="email" type="email" placeholder="you@example.com" autocomplete="email">
+</label>
+<p class="small" style="grid-column:1/-1;margin:0">GitHub Pages is static, so this page shows results instantly and creates a draft email. Submission storage can be connected later through n8n, Formspree, Google Forms, or Mailchimp.</p>
+</div>
+<div class="actions">
+<button class="btn primary" type="submit">Reveal my profile</button>
+<button class="btn secondary" id="resetBtn" type="button">Reset</button>
+</div>
+</form>
+
+<section id="results" class="card results hidden" aria-live="polite">
+<div class="result-grid">
+<div>
+<p class="kicker">Your current profile</p>
+<h2 id="archetypeName">The Builder</h2>
+<p id="archetypeSummary" class="lede"></p>
+<div id="nextStep" class="next-step"></div>
+<div id="scoreBars" class="score-bars"></div>
+<div class="actions">
+<button class="btn primary" id="copyResults" type="button">Copy results</button>
+<a class="btn secondary" id="emailResults" href="#">Email results</a>
+</div>
+</div>
+<div>
+<svg id="resultWheel" viewBox="0 0 360 360" role="img" aria-label="Personalized SPEAK Wellness Wheel">
+<g transform="translate(180 180)">
+<path class="slice s" d="M0,0 L0,-142 A142,142 0 0,1 135.1,-43.9 Z"/>
+<path class="slice p" d="M0,0 L135.1,-43.9 A142,142 0 0,1 83.5,114.9 Z"/>
+<path class="slice e" d="M0,0 L83.5,114.9 A142,142 0 0,1 -83.5,114.9 Z"/>
+<path class="slice a" d="M0,0 L-83.5,114.9 A142,142 0 0,1 -135.1,-43.9 Z"/>
+<path class="slice k" d="M0,0 L-135.1,-43.9 A142,142 0 0,1 0,-142 Z"/>
+<circle r="65" fill="#2A2520" stroke="#FBF6E8" stroke-width="4"/>
+<text x="0" y="8" text-anchor="middle" id="overallScore" class="center-score">0%</text>
+<text x="0" y="-101" text-anchor="middle" class="wheel-label">S</text>
+<text x="91" y="-18" text-anchor="middle" class="wheel-label">P</text>
+<text x="54" y="91" text-anchor="middle" class="wheel-label">E</text>
+<text x="-58" y="91" text-anchor="middle" class="wheel-label">A</text>
+<text x="-93" y="-18" text-anchor="middle" class="wheel-label">K</text>
+</g>
+</svg>
+<p class="small">The brighter and larger a slice appears, the more active that pillar currently is.</p>
+</div>
+</div>
+</section>
+</section>
+</main>
+
+<footer class="footer">
+<p>© <span id="year"></span> Church of Better Men / Go Go Self Control.</p>
+<a href="./">Return home</a>
+</footer>
+</div>
+
+<script>
+const pillars={S:{label:"Simplify",full:"Simplify your environment",next:"Remove one recurring friction from your room, phone, calendar, or workspace within 24 hours."},P:{label:"Purify",full:"Purify your body",next:"Choose one body-supporting practice for the next 7 days: sleep timing, hydration, movement, recovery, or restraint."},E:{label:"Electrify",full:"Electrify your mind",next:"Practice one daily pause before reaction: prayer, breath, meditation, journaling, or silence."},A:{label:"Amplify",full:"Amplify a movement",next:"Reach out to one man and strengthen the circle without fixing, shaming, or performing."},K:{label:"Know",full:"Know your why",next:"Write one sentence that begins, 'The man I am becoming is...' and keep it visible for a week."}};
+const questions=[
+{id:"q1",pillar:"S",text:"My physical space supports the man I am trying to become."},
+{id:"q2",pillar:"S",text:"I remove distractions before they start controlling my time and attention."},
+{id:"q3",pillar:"S",text:"My digital life feels organized enough that I can find what matters."},
+{id:"q4",pillar:"P",text:"My sleep, food, movement, and recovery are mostly aligned with my values."},
+{id:"q5",pillar:"P",text:"I notice what weakens my body and make honest adjustments."},
+{id:"q6",pillar:"P",text:"I can enjoy life without letting cravings make my decisions for me."},
+{id:"q7",pillar:"E",text:"I have a practice that helps me settle my mind before reacting."},
+{id:"q8",pillar:"E",text:"When I feel triggered, I can pause and choose a wiser response."},
+{id:"q9",pillar:"E",text:"I feed my mind with ideas that make me clearer, calmer, and stronger."},
+{id:"q10",pillar:"A",text:"I regularly contribute to something bigger than my own comfort."},
+{id:"q11",pillar:"A",text:"I strengthen other men without shaming them."},
+{id:"q12",pillar:"A",text:"I am building or supporting a circle where men can grow safely."},
+{id:"q13",pillar:"K",text:"I can clearly name what I stand for."},
+{id:"q14",pillar:"K",text:"My daily choices are connected to a deeper why."},
+{id:"q15",pillar:"K",text:"When I give my word, I treat it as a sacred commitment."}
+];
+const scale=["Not true right now","Rarely true","Sometimes true","Mostly true","Strongly true"];
+const archetypes=[
+{name:"The Initiate",test:d=>d.overall<45,summary:"You are at the honest beginning. The gift here is clarity: one small vow, kept daily, can change the whole pattern."},
+{name:"The Grounded King",test:d=>d.overall>=72&&d.spread<=20,summary:"Your pillars are balanced and active. Keep practicing humility, consistency, and service so your strength remains safe for others."},
+{name:"The Builder",test:d=>d.top==="S",summary:"You grow through structure. Your next door opens when your space, schedule, and systems make the better choice easier."},
+{name:"The Steward",test:d=>d.top==="P",summary:"You are learning to steward energy. Your body is not an obstacle to purpose; it is one of the instruments of it."},
+{name:"The Wizard",test:d=>d.top==="E",summary:"Your mind is the active gateway. Your path is to turn insight into embodied calm, not just brilliant thinking."},
+{name:"The Brother-Keeper",test:d=>d.top==="A",summary:"You are powered by service and circle. Your next level is to amplify others without abandoning your own foundation."},
+{name:"The King-in-Training",test:d=>d.top==="K",summary:"Your why is calling for leadership. Your path is to let your word, values, and daily conduct become one clean line."}
+];
+const $=s=>document.querySelector(s);
+const questionsEl=$("#questions"),form=$("#assessmentForm"),results=$("#results");
+$("#year").textContent=new Date().getFullYear();
+questionsEl.innerHTML=questions.map((q,i)=>`<fieldset class="q" data-question="${q.id}"><legend>${i+1}. ${q.text}</legend><div class="scale">${scale.map((lab,j)=>`<label><input type="radio" name="${q.id}" value="${j+1}" required><span><strong>${j+1}</strong> — ${lab}</span></label>`).join("")}</div></fieldset>`).join("");
+function toast(msg){const t=document.createElement("div");t.className="toast";t.textContent=msg;document.body.appendChild(t);setTimeout(()=>t.remove(),2200)}
+function calc(fd){const totals={S:0,P:0,E:0,A:0,K:0},counts={S:0,P:0,E:0,A:0,K:0};questions.forEach(q=>{totals[q.pillar]+=Number(fd.get(q.id));counts[q.pillar]++});const pct={};Object.keys(totals).forEach(k=>pct[k]=Math.round(totals[k]/(counts[k]*5)*100));const vals=Object.values(pct),overall=Math.round(vals.reduce((a,b)=>a+b,0)/5),sorted=Object.entries(pct).sort((a,b)=>b[1]-a[1]);return{pct,overall,top:sorted[0][0],low:sorted[sorted.length-1][0],spread:sorted[0][1]-sorted[sorted.length-1][1]}}
+function choose(d){return archetypes.find(a=>a.test(d))||archetypes[0]}
+function renderBars(pct){$("#scoreBars").innerHTML=Object.entries(pillars).map(([k,info])=>`<div><div class="score-top"><span>${info.full}</span><span>${pct[k]}%</span></div><div class="bar"><span style="--w:${pct[k]}%"></span></div></div>`).join("")}
+function wheel(pct){$("#overallScore").textContent=Math.round(Object.values(pct).reduce((a,b)=>a+b,0)/5)+"%";Object.keys(pct).forEach(k=>{const s=document.querySelector("#resultWheel ."+k.toLowerCase());const val=pct[k];s.style.opacity=.25+(val/100)*.75;s.style.transform=`scale(${.84+(val/100)*.18})`})}
+function format(name,email,d,a){return `${name?name+"'s":"My"} Church of Better Men SPEAK Assessment\n\nProfile: ${a.name}\nOverall: ${d.overall}%\n\n${Object.entries(d.pct).map(([k,v])=>pillars[k].label+": "+v+"%").join("\n")}\n\nStrongest pillar: ${pillars[d.top].full}\nGrowth edge: ${pillars[d.low].full}\n\nReflection:\n${a.summary}\n\nNext step:\n${pillars[d.low].next}\n\nEmail: ${email||"Not provided"}`}
+form.addEventListener("submit",e=>{e.preventDefault();document.querySelectorAll(".q").forEach(q=>q.classList.remove("error"));const missing=questions.filter(q=>!form.querySelector(`input[name="${q.id}"]:checked`));if(missing.length){missing.forEach(q=>document.querySelector(`[data-question="${q.id}"]`).classList.add("error"));toast("Please answer every question first.");return}const fd=new FormData(form),d=calc(fd),a=choose(d),name=(fd.get("name")||"").trim(),email=(fd.get("email")||"").trim();$("#archetypeName").textContent=a.name;$("#archetypeSummary").textContent=a.summary;$("#nextStep").innerHTML=`<p class="kicker" style="margin-bottom:.4rem">Your next door</p><p style="margin:0">${pillars[d.low].next}</p>`;renderBars(d.pct);wheel(d.pct);const text=format(name,email,d,a);localStorage.setItem("speakAssessmentResults",text);$("#copyResults").onclick=async()=>{try{await navigator.clipboard.writeText(text);toast("Results copied.")}catch{toast("Copy failed. Select the results manually.")}};$("#emailResults").href=`mailto:?subject=${encodeURIComponent("My SPEAK Assessment Results")}&body=${encodeURIComponent(text)}`;results.classList.remove("hidden");results.scrollIntoView({behavior:"smooth",block:"start"})});
+$("#resetBtn").addEventListener("click",()=>{form.reset();results.classList.add("hidden");document.querySelectorAll(".q").forEach(q=>q.classList.remove("error"));localStorage.removeItem("speakAssessmentResults")});
+</script>
+</body>
+</html>
